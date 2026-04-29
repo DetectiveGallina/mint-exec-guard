@@ -6,4 +6,4 @@ Exec=zorin-exec-guard-windows %f
 Icon=wine
 Type=Application
 NoDisplay=true
-MimeType=application/x-ms-dos-executable;application/x-msi
+MimeType=application/x-ms-dos-executable;application/x-msi;application/msix
