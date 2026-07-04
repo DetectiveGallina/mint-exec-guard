@@ -1,18 +1,5 @@
 #!/usr/bin/python3
 
-# This file is part of the Zorin Exec Guard program.
-#
-# Copyright 2018-2022 Zorin OS Technologies Ltd.
-#
-# This program is free software you can redistribute it and/or modify it
-# under the terms and conditions of the GNU General Public License,
-# version 3, as published by the Free Software Foundation.
-#
-# This program is distributed in the hope it will be useful, but WITHOUT ANY
-# WARRANTY without even the implied warranty of MERCHANTABILITY or FITNESS
-# FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for
-# more details.
-
 import gi
 import gettext
 import sys
@@ -22,46 +9,40 @@ from threading import Thread
 gi.require_version('Gtk', '3.0')
 from gi.repository import Gtk, Gio, GLib
 
-import zorin_exec_guard.exec_guard as ZorinExecGuard
+import mint_exec_guard.exec_guard as MintExecGuard
 
-t = gettext.translation('zorin-exec-guard', '/usr/share/locale',
-                        fallback=True)
+t = gettext.translation('mint-exec-guard', '/usr/share/locale', fallback=True)
 _ = t.gettext
 
 WINDOWS_APP_SUPPORT = {
     "name": "Windows App Support",
-    "apt": "zorin-windows-app-support",
-    "appstream": {
-        "id": "com.zorinos.windows-app-support"
-    }
+    "apt": "ubuntu-windows-app-support"
 }
 
 MIN_INSTALLATION_TIMEOUT = 60
 MAX_EXECUTION_RETRIES = 40
 RETRY_WAIT_TIME = 15
 
-
 def is_wine_installed():
     return bool(GLib.find_program_in_path("wine"))
 
-class ExecGuardApplicationWindows(ZorinExecGuard.ExecGuardApplication):
+class ExecGuardApplicationWindows(MintExecGuard.ExecGuardApplication):
 
-    APP_ID = 'com.zorin.exec-guard.windows'
+    APP_ID = 'com.mint.exec-guard.windows'
 
     def _launch_executable(self, widget=None):
-        ZorinExecGuard.spawn_process(['wine', 'start', '/unix', self.executable["path"]])
+        MintExecGuard.spawn_process(['wine', 'start', '/unix', self.executable["path"]]) [cite: 76]
         print("Launching " + self.executable["filename"] + " with Wine")
         self.quit()
-        
+
     def _install_windows_app_support(self, widget):
         self.window.hide()
-        ZorinExecGuard.install_app_from_software(WINDOWS_APP_SUPPORT)
-
+        MintExecGuard.install_app_from_software(WINDOWS_APP_SUPPORT)
         thread = Thread(target=self._attempt_execution)
         thread.start()
 
     def _attempt_execution(self):
-        print("Waiting " + str(MIN_INSTALLATION_TIMEOUT) + " seconds before checking if Windows App Support is installed")
+        print("Waiting " + str(MIN_INSTALLATION_TIMEOUT) + " seconds before checking if Windows App Support is installed") [cite: 76, 77]
         time.sleep(MIN_INSTALLATION_TIMEOUT)
 
         retries = 0
@@ -69,64 +50,51 @@ class ExecGuardApplicationWindows(ZorinExecGuard.ExecGuardApplication):
             if is_wine_installed():
                 self._launch_executable()
                 break
-            print("Windows App Support isn't installed yet. Trying again in " + str(RETRY_WAIT_TIME) + " seconds.")
+            print("Windows App Support isn't installed yet. Trying again in " + str(RETRY_WAIT_TIME) + " seconds.") [cite: 77, 78]
             time.sleep(RETRY_WAIT_TIME)
             retries += 1
-
         self.quit()
 
     def _get_main_message(self):
         if (not is_wine_installed()) and (not self.replacement):
             return _("Install Windows App Support to run %s?") % self.executable["filename"]
-
         return super(ExecGuardApplicationWindows, self)._get_main_message()
 
     def _get_unknown_app_warning_message(self):
         frame = Gtk.Frame()
-        text_view = Gtk.TextView(editable=False,
-                                cursor_visible=False,
-                                top_margin=8,
-                                left_margin=8,
-                                bottom_margin=8,
-                                right_margin=8,
-                                wrap_mode=Gtk.WrapMode.WORD)
+        text_view = Gtk.TextView(editable=False, cursor_visible=False, top_margin=8, left_margin=8, bottom_margin=8, right_margin=8, wrap_mode=Gtk.WrapMode.WORD) [cite: 79, 80, 81]
         text_buffer = text_view.get_buffer()
 
-        escaped_filename = ZorinExecGuard.truncate_with_ellipses(GLib.markup_escape_text(self.executable["filename"], -1), ZorinExecGuard.MAX_EXEC_CHAR_LENGTH*3)
+        escaped_filename = MintExecGuard.truncate_with_ellipses(GLib.markup_escape_text(self.executable["filename"], -1), MintExecGuard.MAX_EXEC_CHAR_LENGTH*3)
         text = _("%s is an unknown Windows app.") % escaped_filename + " " + _("Your computer and personal data may be vulnerable to a breach when running apps from unknown sources.") + "\n\n" + _("Some Windows apps may not be compatible with Windows App Support.")
 
         text_buffer.set_text(text, -1)
-
-        frame.add(text_view)
-
+        frame.add(text_view) [cite: 81, 82]
         return frame
 
     def _get_links(self, box):
         if not self.replacement:
-            link = Gtk.LinkButton.new_with_label("https://help.zorin.com/docs/apps-games/play-games/", _("Is this a video game?"))
-            box.add(link)
+            # Url for video game installation tutorial for mint yet to be found
+            link = Gtk.LinkButton.new_with_label("", _("Is this a video game?"))
+            #box.add(link)
 
     def _get_buttons(self, box):
         button = None
-
         if is_wine_installed():
             button = Gtk.Button(label=_("Run anyway"))
-            button.connect('clicked', self._launch_executable)
+            button.connect('clicked', self._launch_executable) [cite: 82, 83]
             box.add(button)
         else:
             button = Gtk.Button(label=_("Install Windows App Support"))
             button.connect('clicked',self._install_windows_app_support)
             box.add(button)
-
         super(ExecGuardApplicationWindows, self)._get_buttons(box)
 
 def main(argv):
-    executable = ZorinExecGuard.get_executable(argv)
-
+    executable = MintExecGuard.get_executable(argv)
     if not executable:
-        print('No argument provided - exiting')
+        print('No argument provided - exiting') [cite: 83, 84]
         return 1
-
     return (ExecGuardApplicationWindows({"executable": executable, "platform": "windows"})).run(None)
 
 main(sys.argv)

@@ -1,154 +1,178 @@
 msgid ""
 msgstr ""
+"Project-Id-Version: Linux Mint\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-03 23:18-0300\n"
+"Language: lv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: POEditor.com\n"
-"Project-Id-Version: Zorin OS\n"
-"Language: lv\n"
 
-#: 
-msgid "Install Linux Application"
-msgstr "Instalējiet Linux lietojumprogrammu"
-
-#: 
-msgid "Install Linux Applications"
-msgstr "Instalējiet Linux lietojumprogrammas"
-
-#: 
-msgid "Install Windows Application"
-msgstr "Instalējiet Windows lietojumprogrammu"
-
-#: 
-msgid "Install Windows Applications"
-msgstr "Instalējiet Windows lietojumprogrammas"
-
-#: 
-
+#: .././mint_exec_guard/exec_guard.py:140
+#, python-format
 msgid "Are you sure you want to run %s?"
 msgstr "Vai tiešām vēlaties palaist %s?"
 
-#: 
-
+#: .././mint_exec_guard/exec_guard.py:146
+#, python-format
 msgid "%s is available on Steam"
 msgstr "%s ir pieejams Steam"
 
-#: 
-
+#: .././mint_exec_guard/exec_guard.py:151
+#, python-format
 msgid "%s is already installed"
 msgstr "%s jau ir instalēts"
 
-#: 
-
+#: .././mint_exec_guard/exec_guard.py:153
+#, python-format
 msgid "%s can be installed from Software"
 msgstr "%s var instalēt no Software"
 
-#: 
-
+#: .././mint_exec_guard/exec_guard.py:157
+#, python-format
 msgid "%s is an alternative to %s."
 msgstr "%s ir alternatīva %s."
 
-#: 
-
+#: .././mint_exec_guard/exec_guard.py:174
+#, python-format
 msgid "%s is an unknown package."
 msgstr "%s ir nezināma pakete."
 
-#: 
+#: .././mint_exec_guard/exec_guard.py:174 .././bin/mint-exec-guard-windows:69
+msgid ""
+"Your computer and personal data may be vulnerable to a breach when running "
+"apps from unknown sources."
+msgstr ""
+"Dators un personas dati var būt neaizsargāti pret pārkāpumiem, ja lietojat "
+"lietotnes no nezināmiem avotiem."
 
-msgid "%s is an unknown Windows app."
-msgstr "%s ir nezināma Windows lietotne."
-
-#: 
-msgid "Your computer and personal data may be vulnerable to a breach when running apps from unknown sources."
-msgstr "Dators un personas dati var būt neaizsargāti pret pārkāpumiem, ja lietojat lietotnes no nezināmiem avotiem."
-
-#: 
-msgid "Some Windows apps may not be compatible with Windows App Support."
-msgstr "Dažas Windows lietotnes var nebūt saderīgas ar Windows Lietotņu Atbalstu."
-
-#: 
-
-msgid "%s has been installed"
-msgstr "%s ir instalēta"
-
-#: 
-
-msgid "Run anyway"
-msgstr "Jebkurā gadījumā uzsākt"
-
-#: 
-
+#: .././mint_exec_guard/exec_guard.py:205
+#, python-format
 msgid "Launch %s"
 msgstr "Uzsākt %s"
 
-#: 
-
+#: .././mint_exec_guard/exec_guard.py:211
+#, python-format
 msgid "Install %s"
 msgstr "Instalējiet %s"
 
-#: 
-msgid "Install Windows App Support"
-msgstr "Instalējiet Windows Lietotņu Atbalstu"
+#: .././mint_exec_guard/exec_guard.py:352
+#, python-format
+msgid "%s has been installed"
+msgstr "%s ir instalēta"
 
-#: 
+#: .././desktop/com.mint.exec-guard.linux.desktop.in.h:1
+msgid "Install Linux Application"
+msgstr "Instalējiet Linux lietojumprogrammu"
 
+#: .././desktop/com.mint.exec-guard.linux.desktop.in.h:2
+msgid "Install Linux Applications"
+msgstr "Instalējiet Linux lietojumprogrammas"
+
+#: .././desktop/com.mint.exec-guard.windows.desktop.in.h:1
+msgid "Install Windows Application"
+msgstr "Instalējiet Windows lietojumprogrammu"
+
+#: .././desktop/com.mint.exec-guard.windows.desktop.in.h:2
+msgid "Install Windows Applications"
+msgstr "Instalējiet Windows lietojumprogrammas"
+
+#: .././bin/mint-exec-guard-linux:32 .././bin/mint-exec-guard-windows:84
+msgid "Run anyway"
+msgstr "Jebkurā gadījumā uzsākt"
+
+#: .././bin/mint-exec-guard-windows:60
+#, c-format
 msgid "Install Windows App Support to run %s?"
 msgstr "Lai instalētu %s, instalējiet Windows Lietotņu Atbalstu?"
 
-#: 
-msgid "Installed"
-msgstr "Instalēts"
+#: .././bin/mint-exec-guard-windows:69
+#, c-format
+msgid "%s is an unknown Windows app."
+msgstr "%s ir nezināma Windows lietotne."
 
-msgid "Archive Manager"
-msgstr "Arhīvu pārvaldnieks"
+#: .././bin/mint-exec-guard-windows:69
+msgid "Some Windows apps may not be compatible with Windows App Support."
+msgstr ""
+"Dažas Windows lietotnes var nebūt saderīgas ar Windows Lietotņu Atbalstu."
 
-msgid "Document Viewer"
-msgstr "Dokumentu skatītājs"
-
-msgid "You can download Google Chrome (.deb package) for Zorin OS from the web"
-msgstr "Varat lejupielādēt Google Chrome (.deb pakotni) Zorin OS no tīmekļa vietnes"
-
-msgid "You can download Dropbox (Ubuntu package) for Zorin OS from the web"
-msgstr "Varat lejupielādēt Dropbox (Ubuntu pakete) Zorin OS no tīmekļa vietnes"
-
-msgid "You can download Itch (Linux package) for Zorin OS from the web"
-msgstr "Itch (Linux pakete) Zorin OS varat lejupielādēt no tīmekļa vietnes"
-
-msgid "You can download TeamViewer (.deb package) for Zorin OS from the web"
-msgstr "Jūs varat lejupielādēt TeamViewer (.deb pakete) Zorin OS no tīmekļa vietnes"
-
-msgid "You can download Genymotion (Ubuntu package) for Zorin OS from the web"
-msgstr "Jūs varat lejupielādēt Genymotion (Ubuntu pakete) Zorin OS no tīmekļa vietnes"
-
-msgid "You can use WhatsApp on the web"
-msgstr "Varat izmantot WhatsApp tīmeklī"
-
-msgid "League of Legends is available on Lutris"
-msgstr "League of Legends ir pieejama Lutris"
-
-msgid "Overwatch is available on Lutris"
-msgstr "Overwatch ir pieejams Lutris"
-
-msgid "Warframe is available on Lutris"
-msgstr "Warframe ir pieejams Lutris"
-
-msgid "World of Warcraft is available on Lutris"
-msgstr "World of Warcraft ir pieejams Lutris"
-
-msgid "Zorin OS is already resistant to Windows viruses and malware"
-msgstr "Zorin OS jau ir izturīga pret Windows vīrusiem un ļaunprātīgu programmatūru."
-
-msgid "Flash Player is no longer supported"
-msgstr "Flash Player vairs netiek atbalstīts"
-
-msgid "Install GNOME Boxes to run Microsoft Windows inside a Virtual Machine in Zorin OS"
-msgstr "GNOME Boxes instalēšana, lai palaistu Microsoft Windows virtuālajā mašīnā Zorin OS sistēmā"
-
-msgid ".rar file support"
-msgstr ".rar failu atbalsts"
-
-msgid ".7z file support"
-msgstr ".7z failu atbalsts"
-
+#: .././bin/mint-exec-guard-windows:78
 msgid "Is this a video game?"
 msgstr "Vai šī ir videospēle?"
+
+#: .././bin/mint-exec-guard-windows:88
+msgid "Install Windows App Support"
+msgstr "Instalējiet Windows Lietotņu Atbalstu"
+
+#~ msgid "Installed"
+#~ msgstr "Instalēts"
+
+#~ msgid "Archive Manager"
+#~ msgstr "Arhīvu pārvaldnieks"
+
+#~ msgid "Document Viewer"
+#~ msgstr "Dokumentu skatītājs"
+
+#~ msgid ""
+#~ "You can download Google Chrome (.deb package) for Linux Mint from the web"
+#~ msgstr ""
+#~ "Varat lejupielādēt Google Chrome (.deb pakotni) Linux Mint no tīmekļa "
+#~ "vietnes"
+
+#~ msgid ""
+#~ "You can download Dropbox (Ubuntu package) for Linux Mint from the web"
+#~ msgstr ""
+#~ "Varat lejupielādēt Dropbox (Ubuntu pakete) Linux Mint no tīmekļa vietnes"
+
+#~ msgid "You can download Itch (Linux package) for Linux Mint from the web"
+#~ msgstr ""
+#~ "Itch (Linux pakete) Linux Mint varat lejupielādēt no tīmekļa vietnes"
+
+#~ msgid ""
+#~ "You can download TeamViewer (.deb package) for Linux Mint from the web"
+#~ msgstr ""
+#~ "Jūs varat lejupielādēt TeamViewer (.deb pakete) Linux Mint no tīmekļa "
+#~ "vietnes"
+
+#~ msgid ""
+#~ "You can download Genymotion (Ubuntu package) for Linux Mint from the web"
+#~ msgstr ""
+#~ "Jūs varat lejupielādēt Genymotion (Ubuntu pakete) Linux Mint no tīmekļa "
+#~ "vietnes"
+
+#~ msgid "You can use WhatsApp on the web"
+#~ msgstr "Varat izmantot WhatsApp tīmeklī"
+
+#~ msgid "League of Legends is available on Lutris"
+#~ msgstr "League of Legends ir pieejama Lutris"
+
+#~ msgid "Overwatch is available on Lutris"
+#~ msgstr "Overwatch ir pieejams Lutris"
+
+#~ msgid "Warframe is available on Lutris"
+#~ msgstr "Warframe ir pieejams Lutris"
+
+#~ msgid "World of Warcraft is available on Lutris"
+#~ msgstr "World of Warcraft ir pieejams Lutris"
+
+#~ msgid "Linux Mint is already resistant to Windows viruses and malware"
+#~ msgstr ""
+#~ "Linux Mint jau ir izturīga pret Windows vīrusiem un ļaunprātīgu "
+#~ "programmatūru."
+
+#~ msgid "Flash Player is no longer supported"
+#~ msgstr "Flash Player vairs netiek atbalstīts"
+
+#~ msgid ""
+#~ "Install GNOME Boxes to run Microsoft Windows inside a Virtual Machine in "
+#~ "Linux Mint"
+#~ msgstr ""
+#~ "GNOME Boxes instalēšana, lai palaistu Microsoft Windows virtuālajā mašīnā "
+#~ "Linux Mint sistēmā"
+
+#~ msgid ".rar file support"
+#~ msgstr ".rar failu atbalsts"
+
+#~ msgid ".7z file support"
+#~ msgstr ".7z failu atbalsts"

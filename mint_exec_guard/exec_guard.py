@@ -1,6 +1,6 @@
 # This file is part of the Zorin Exec Guard program.
 #
-# Copyright 2018-2022 Zorin OS Technologies Ltd.
+# Copyright 2018-2022 Linux Mint Technologies Ltd.
 #
 # This program is free software you can redistribute it and/or modify it
 # under the terms and conditions of the GNU General Public License,
@@ -29,12 +29,12 @@ from aptdaemon.gtk3widgets import AptErrorDialog, AptProgressDialog
 import aptdaemon.errors
 from aptdaemon.enums import *
 
-t = gettext.translation('zorin-exec-guard', '/usr/share/locale',
+t = gettext.translation('mint-exec-guard', '/usr/share/locale',
                         fallback=True)
 _ = t.gettext
 
 MAX_EXEC_CHAR_LENGTH = 12
-APP_DB_FILE = "/usr/share/zorin-exec-guard/app_db.json"
+APP_DB_FILE = "/usr/share/mint-exec-guard/app_db.json"
 
 
 def title(text):
@@ -409,12 +409,15 @@ def get_software_app_id(replacement):
     return app_id
 
 def install_app_from_software(replacement):
-    software_app_id = get_software_app_id(replacement)
-    Gio.DBusActionGroup.get(Gio.Application.get_default().get_dbus_connection(),
-                            'org.gnome.Software',
-                            '/org/gnome/Software').activate_action('details',
-                            GLib.Variant('(ss)', (software_app_id, '')))
-
+    try:
+        app_id = get_software_app_id(replacement)
+        if app_id:
+            import subprocess
+            subprocess.Popen(['mintinstall', '--search', app_id])
+        else:
+            logging.warning('No se pudo determinar un ID valido de aplicacion para mintinstall.')
+    except Exception as e:
+        logging.exception('Error al lanzar mintinstall: %s' % e)
 def get_installed_flatpak_ref(app_id):
     try:
         return Flatpak.Installation.new_user(None).get_current_installed_app(app_id, None)

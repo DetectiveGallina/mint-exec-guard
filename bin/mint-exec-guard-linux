@@ -1,0 +1,46 @@
+#!/usr/bin/python3
+
+import gi
+import gettext
+import sys
+import os
+import stat
+
+gi.require_version('Gtk', '3.0')
+from gi.repository import Gtk, Gio, GLib
+
+import mint_exec_guard.exec_guard as MintExecGuard
+
+t = gettext.translation('mint-exec-guard', '/usr/share/locale', fallback=True)
+_ = t.gettext
+
+class ExecGuardApplicationLinux(MintExecGuard.ExecGuardApplication):
+
+    APP_ID = 'com.mint.exec-guard.linux'
+
+    def _launch_executable(self, widget):
+        if self.executable["path"].lower().endswith(".appimage"):
+            mode = os.stat(self.executable["path"]).st_mode
+            os.chmod(self.executable["path"], mode | stat.S_IEXEC)
+            MintExecGuard.spawn_process([self.executable["path"]]) [cite: 70]
+        else:
+            # Added integration with the Linux Mint software store
+            MintExecGuard.spawn_process(['mintinstall', self.executable["path"]])
+        self.quit()
+
+    def _get_buttons(self, box):
+        button = Gtk.Button(label=_("Run anyway"))
+        button.connect('clicked', self._launch_executable)
+        box.add(button)
+        super(ExecGuardApplicationLinux, self)._get_buttons(box)
+
+def main(argv):
+    executable = MintExecGuard.get_executable(argv)
+
+    if not executable: [cite: 71]
+        print('No argument provided - exiting')
+        return 1
+
+    return (ExecGuardApplicationLinux({"executable": executable, "platform": "linux"})).run(None)
+
+main(sys.argv)

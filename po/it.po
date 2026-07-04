@@ -1,154 +1,173 @@
 msgid ""
 msgstr ""
+"Project-Id-Version: Linux Mint\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-03 23:18-0300\n"
+"Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: POEditor.com\n"
-"Project-Id-Version: Zorin OS\n"
-"Language: it\n"
 
-#: 
-msgid "Install Linux Application"
-msgstr "Installa l'applicazione Linux"
-
-#: 
-msgid "Install Linux Applications"
-msgstr "Installa le applicazioni Linux"
-
-#: 
-msgid "Install Windows Application"
-msgstr "Installa l'applicazione Windows"
-
-#: 
-msgid "Install Windows Applications"
-msgstr "Installa le applicazioni Windows"
-
-#: 
-
+#: .././mint_exec_guard/exec_guard.py:140
+#, python-format
 msgid "Are you sure you want to run %s?"
 msgstr "Sei sicuro di voler eseguire %s?"
 
-#: 
-
+#: .././mint_exec_guard/exec_guard.py:146
+#, python-format
 msgid "%s is available on Steam"
 msgstr "%s è disponibile su Steam"
 
-#: 
-
+#: .././mint_exec_guard/exec_guard.py:151
+#, python-format
 msgid "%s is already installed"
 msgstr "%s è già installato"
 
-#: 
-
+#: .././mint_exec_guard/exec_guard.py:153
+#, python-format
 msgid "%s can be installed from Software"
 msgstr "%s può essere installato dal software"
 
-#: 
-
+#: .././mint_exec_guard/exec_guard.py:157
+#, python-format
 msgid "%s is an alternative to %s."
 msgstr "%s è un'alternativa a %s."
 
-#: 
-
+#: .././mint_exec_guard/exec_guard.py:174
+#, python-format
 msgid "%s is an unknown package."
 msgstr "%s è un pacchetto sconosciuto."
 
-#: 
+#: .././mint_exec_guard/exec_guard.py:174 .././bin/mint-exec-guard-windows:69
+msgid ""
+"Your computer and personal data may be vulnerable to a breach when running "
+"apps from unknown sources."
+msgstr ""
+"Il tuo computer e i tuoi dati personali potrebbero essere soggetti ad una "
+"violazione quando si eseguono applicazioni provenienti da sorgenti "
+"sconosciute."
 
-msgid "%s is an unknown Windows app."
-msgstr "%s è un applicazione Windows sconosciuta."
-
-#: 
-msgid "Your computer and personal data may be vulnerable to a breach when running apps from unknown sources."
-msgstr "Il tuo computer e i tuoi dati personali potrebbero essere soggetti ad una violazione quando si eseguono applicazioni provenienti da sorgenti sconosciute."
-
-#: 
-msgid "Some Windows apps may not be compatible with Windows App Support."
-msgstr "Alcune applicazioni Windows potrebbero non essere compatibili con Supporto dell app di Windows"
-
-#: 
-
-msgid "%s has been installed"
-msgstr "%s è stato installato"
-
-#: 
-
-msgid "Run anyway"
-msgstr "Esegui comunque"
-
-#: 
-
+#: .././mint_exec_guard/exec_guard.py:205
+#, python-format
 msgid "Launch %s"
 msgstr "Esegui %s"
 
-#: 
-
+#: .././mint_exec_guard/exec_guard.py:211
+#, python-format
 msgid "Install %s"
 msgstr "Installa %s"
 
-#: 
-msgid "Install Windows App Support"
-msgstr "Installa Supporto dell app di Windows"
+#: .././mint_exec_guard/exec_guard.py:352
+#, python-format
+msgid "%s has been installed"
+msgstr "%s è stato installato"
 
-#: 
+#: .././desktop/com.mint.exec-guard.linux.desktop.in.h:1
+msgid "Install Linux Application"
+msgstr "Installa l'applicazione Linux"
 
+#: .././desktop/com.mint.exec-guard.linux.desktop.in.h:2
+msgid "Install Linux Applications"
+msgstr "Installa le applicazioni Linux"
+
+#: .././desktop/com.mint.exec-guard.windows.desktop.in.h:1
+msgid "Install Windows Application"
+msgstr "Installa l'applicazione Windows"
+
+#: .././desktop/com.mint.exec-guard.windows.desktop.in.h:2
+msgid "Install Windows Applications"
+msgstr "Installa le applicazioni Windows"
+
+#: .././bin/mint-exec-guard-linux:32 .././bin/mint-exec-guard-windows:84
+msgid "Run anyway"
+msgstr "Esegui comunque"
+
+#: .././bin/mint-exec-guard-windows:60
+#, c-format
 msgid "Install Windows App Support to run %s?"
 msgstr "Installare Supporto dell app di Windows per eseguire %s?"
 
-#: 
-msgid "Installed"
-msgstr "Installato"
+#: .././bin/mint-exec-guard-windows:69
+#, c-format
+msgid "%s is an unknown Windows app."
+msgstr "%s è un applicazione Windows sconosciuta."
 
-msgid "Archive Manager"
-msgstr "Gestore di archivi"
+#: .././bin/mint-exec-guard-windows:69
+msgid "Some Windows apps may not be compatible with Windows App Support."
+msgstr ""
+"Alcune applicazioni Windows potrebbero non essere compatibili con Supporto "
+"dell app di Windows"
 
-msgid "Document Viewer"
-msgstr "Visualizzatore documenti"
-
-msgid "You can download Google Chrome (.deb package) for Zorin OS from the web"
-msgstr "Puoi scaricare Google Chrome (pacchetto .deb) per Zorin OS dal web"
-
-msgid "You can download Dropbox (Ubuntu package) for Zorin OS from the web"
-msgstr "Puoi scaricare Dropbox (pacchetto per Ubuntu) per Zorin OS dal web"
-
-msgid "You can download Itch (Linux package) for Zorin OS from the web"
-msgstr "Puoi scaricare Itch (pacchetto per Linux) per Zorin OS dal web"
-
-msgid "You can download TeamViewer (.deb package) for Zorin OS from the web"
-msgstr "Puoi scaricare TeamViewer (pacchetto .deb) per Zorin OS dal web"
-
-msgid "You can download Genymotion (Ubuntu package) for Zorin OS from the web"
-msgstr "Puoi scaricare Genymotion (pacchetto per Ubuntu) per Zorin OS dal web"
-
-msgid "You can use WhatsApp on the web"
-msgstr "Puoi usare WhatsApp sul web"
-
-msgid "League of Legends is available on Lutris"
-msgstr "League of Legends è disponibile su Lutris"
-
-msgid "Overwatch is available on Lutris"
-msgstr "Overwatch è disponibile su Lutris"
-
-msgid "Warframe is available on Lutris"
-msgstr "Warframe è disponibile su Lutris"
-
-msgid "World of Warcraft is available on Lutris"
-msgstr "World of Warcraft è disponibile su Lutris"
-
-msgid "Zorin OS is already resistant to Windows viruses and malware"
-msgstr "Zorin OS è gia resistente ai virus e malware di Windows"
-
-msgid "Flash Player is no longer supported"
-msgstr "Flash Player non è più supportato"
-
-msgid "Install GNOME Boxes to run Microsoft Windows inside a Virtual Machine in Zorin OS"
-msgstr "Installa GNOME Boxes per eseguire Microsoft Windows all'interno di una macchina virtuale in Zorin OS"
-
-msgid ".rar file support"
-msgstr "supporto per file .rar"
-
-msgid ".7z file support"
-msgstr "supporto per file .7z"
-
+#: .././bin/mint-exec-guard-windows:78
 msgid "Is this a video game?"
 msgstr "È un videogioco?"
+
+#: .././bin/mint-exec-guard-windows:88
+msgid "Install Windows App Support"
+msgstr "Installa Supporto dell app di Windows"
+
+#~ msgid "Installed"
+#~ msgstr "Installato"
+
+#~ msgid "Archive Manager"
+#~ msgstr "Gestore di archivi"
+
+#~ msgid "Document Viewer"
+#~ msgstr "Visualizzatore documenti"
+
+#~ msgid ""
+#~ "You can download Google Chrome (.deb package) for Linux Mint from the web"
+#~ msgstr ""
+#~ "Puoi scaricare Google Chrome (pacchetto .deb) per Linux Mint dal web"
+
+#~ msgid ""
+#~ "You can download Dropbox (Ubuntu package) for Linux Mint from the web"
+#~ msgstr ""
+#~ "Puoi scaricare Dropbox (pacchetto per Ubuntu) per Linux Mint dal web"
+
+#~ msgid "You can download Itch (Linux package) for Linux Mint from the web"
+#~ msgstr "Puoi scaricare Itch (pacchetto per Linux) per Linux Mint dal web"
+
+#~ msgid ""
+#~ "You can download TeamViewer (.deb package) for Linux Mint from the web"
+#~ msgstr "Puoi scaricare TeamViewer (pacchetto .deb) per Linux Mint dal web"
+
+#~ msgid ""
+#~ "You can download Genymotion (Ubuntu package) for Linux Mint from the web"
+#~ msgstr ""
+#~ "Puoi scaricare Genymotion (pacchetto per Ubuntu) per Linux Mint dal web"
+
+#~ msgid "You can use WhatsApp on the web"
+#~ msgstr "Puoi usare WhatsApp sul web"
+
+#~ msgid "League of Legends is available on Lutris"
+#~ msgstr "League of Legends è disponibile su Lutris"
+
+#~ msgid "Overwatch is available on Lutris"
+#~ msgstr "Overwatch è disponibile su Lutris"
+
+#~ msgid "Warframe is available on Lutris"
+#~ msgstr "Warframe è disponibile su Lutris"
+
+#~ msgid "World of Warcraft is available on Lutris"
+#~ msgstr "World of Warcraft è disponibile su Lutris"
+
+#~ msgid "Linux Mint is already resistant to Windows viruses and malware"
+#~ msgstr "Linux Mint è gia resistente ai virus e malware di Windows"
+
+#~ msgid "Flash Player is no longer supported"
+#~ msgstr "Flash Player non è più supportato"
+
+#~ msgid ""
+#~ "Install GNOME Boxes to run Microsoft Windows inside a Virtual Machine in "
+#~ "Linux Mint"
+#~ msgstr ""
+#~ "Installa GNOME Boxes per eseguire Microsoft Windows all'interno di una "
+#~ "macchina virtuale in Linux Mint"
+
+#~ msgid ".rar file support"
+#~ msgstr "supporto per file .rar"
+
+#~ msgid ".7z file support"
+#~ msgstr "supporto per file .7z"

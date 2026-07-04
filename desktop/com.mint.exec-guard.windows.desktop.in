@@ -2,7 +2,7 @@
 _Name=Install Windows Application
 _GenericName=Install Windows Application
 _Comment=Install Windows Applications
-Exec=zorin-exec-guard-windows %f
+Exec=mint-exec-guard-windows %f
 Icon=wine
 Type=Application
 NoDisplay=true

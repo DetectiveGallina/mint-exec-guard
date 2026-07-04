@@ -1,100 +1,108 @@
 msgid ""
 msgstr ""
+"Project-Id-Version: Linux Mint\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-03 23:18-0300\n"
+"Language: tl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: POEditor.com\n"
-"Project-Id-Version: Zorin OS\n"
-"Language: tl\n"
 
-#: 
-msgid "Install Linux Application"
-msgstr "Maglagay ng Application na pang Linux"
-
-#: 
-msgid "Install Linux Applications"
-msgstr "Maglagay ng mga Application na pang Linux"
-
-#: 
-msgid "Install Windows Application"
-msgstr "Maglagay ng Application na pang Windows"
-
-#: 
-msgid "Install Windows Applications"
-msgstr "Maglagay ng mga Application na pang Windows"
-
-#: 
-
+#: .././mint_exec_guard/exec_guard.py:140
+#, python-format
 msgid "Are you sure you want to run %s?"
 msgstr "Sigurado ka ba na gusto mong buksan ang %s?"
 
-#: 
-
+#: .././mint_exec_guard/exec_guard.py:146
+#, python-format
 msgid "%s is available on Steam"
 msgstr "Mayroong %s sa Steam"
 
-#: 
-
+#: .././mint_exec_guard/exec_guard.py:151
+#, python-format
 msgid "%s is already installed"
 msgstr "Ang %s ay na install na"
 
-#: 
-
+#: .././mint_exec_guard/exec_guard.py:153
+#, python-format
 msgid "%s can be installed from Software"
 msgstr "Ang %s ay maaaring ma-install galing sa Software"
 
-#: 
-
+#: .././mint_exec_guard/exec_guard.py:157
+#, python-format
 msgid "%s is an alternative to %s."
 msgstr "Ang %s ay alternatibo sa %s."
 
-#: 
-
+#: .././mint_exec_guard/exec_guard.py:174
+#, python-format
 msgid "%s is an unknown package."
 msgstr "Ang %s ay isang unknown package."
 
-#: 
+#: .././mint_exec_guard/exec_guard.py:174 .././bin/mint-exec-guard-windows:69
+msgid ""
+"Your computer and personal data may be vulnerable to a breach when running "
+"apps from unknown sources."
+msgstr ""
+"Ang iyong computer at personal data ay maaaring maging delikado kung "
+"bubuksan ang mga app galing sa mga di matukoy na pinanggalingan."
 
-msgid "%s is an unknown Windows app."
-msgstr "Ang %s ay isang unknown Windows app."
-
-#: 
-msgid "Your computer and personal data may be vulnerable to a breach when running apps from unknown sources."
-msgstr "Ang iyong computer at personal data ay maaaring maging delikado kung bubuksan ang mga app galing sa mga di matukoy na pinanggalingan."
-
-#: 
-msgid "Some Windows apps may not be compatible with Windows App Support."
-msgstr "Ang ilang Windows app ay maaring hindi akma sa Windows App Support."
-
-#: 
-
-msgid "%s has been installed"
-msgstr "Na-install na ang %s"
-
-#: 
-
-msgid "Run anyway"
-msgstr "Buksan pa rin ang"
-
-#: 
-
+#: .././mint_exec_guard/exec_guard.py:205
+#, python-format
 msgid "Launch %s"
 msgstr "Buksan ang %s"
 
-#: 
-
+#: .././mint_exec_guard/exec_guard.py:211
+#, python-format
 msgid "Install %s"
 msgstr "I-install ang %s"
 
-#: 
-msgid "Install Windows App Support"
-msgstr "Ilagay ang Windows App Support"
+#: .././mint_exec_guard/exec_guard.py:352
+#, python-format
+msgid "%s has been installed"
+msgstr "Na-install na ang %s"
 
-#: 
+#: .././desktop/com.mint.exec-guard.linux.desktop.in.h:1
+msgid "Install Linux Application"
+msgstr "Maglagay ng Application na pang Linux"
 
+#: .././desktop/com.mint.exec-guard.linux.desktop.in.h:2
+msgid "Install Linux Applications"
+msgstr "Maglagay ng mga Application na pang Linux"
+
+#: .././desktop/com.mint.exec-guard.windows.desktop.in.h:1
+msgid "Install Windows Application"
+msgstr "Maglagay ng Application na pang Windows"
+
+#: .././desktop/com.mint.exec-guard.windows.desktop.in.h:2
+msgid "Install Windows Applications"
+msgstr "Maglagay ng mga Application na pang Windows"
+
+#: .././bin/mint-exec-guard-linux:32 .././bin/mint-exec-guard-windows:84
+msgid "Run anyway"
+msgstr "Buksan pa rin ang"
+
+#: .././bin/mint-exec-guard-windows:60
+#, c-format
 msgid "Install Windows App Support to run %s?"
 msgstr "Ilagay ang Windows App Support para buksan ang %s?"
 
-#: 
-msgid "Installed"
-msgstr "Na-ilagay na"
+#: .././bin/mint-exec-guard-windows:69
+#, c-format
+msgid "%s is an unknown Windows app."
+msgstr "Ang %s ay isang unknown Windows app."
+
+#: .././bin/mint-exec-guard-windows:69
+msgid "Some Windows apps may not be compatible with Windows App Support."
+msgstr "Ang ilang Windows app ay maaring hindi akma sa Windows App Support."
+
+#: .././bin/mint-exec-guard-windows:78
+msgid "Is this a video game?"
+msgstr ""
+
+#: .././bin/mint-exec-guard-windows:88
+msgid "Install Windows App Support"
+msgstr "Ilagay ang Windows App Support"
+
+#~ msgid "Installed"
+#~ msgstr "Na-ilagay na"

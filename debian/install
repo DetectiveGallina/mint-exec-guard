@@ -1,7 +1,7 @@
 usr/lib/python*/*/*.egg-info 
-usr/lib/python*/*/zorin_exec_guard/*
-usr/bin/zorin-exec-guard-linux
-usr/bin/zorin-exec-guard-windows
-usr/share/applications/com.zorin.exec-guard.linux.desktop
-usr/share/applications/com.zorin.exec-guard.windows.desktop
+usr/lib/python*/*/mint_exec_guard/*
+usr/bin/mint-exec-guard-linux
+usr/bin/mint-exec-guard-windows
+usr/share/applications/com.mint.exec-guard.linux.desktop
+usr/share/applications/com.mint.exec-guard.windows.desktop
 usr/share/locale/*

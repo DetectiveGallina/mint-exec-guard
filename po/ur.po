@@ -1,153 +1,171 @@
 msgid ""
 msgstr ""
+"Project-Id-Version: Linux Mint\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-03 23:18-0300\n"
+"Language: ur\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: POEditor.com\n"
-"Project-Id-Version: Zorin OS\n"
-"Language: ur\n"
 
-#: 
+#: .././mint_exec_guard/exec_guard.py:140
+#, python-format
+msgid "Are you sure you want to run %s?"
+msgstr "کیا آپ واقعی %s چلانا چاہتے ہیں؟"
+
+#: .././mint_exec_guard/exec_guard.py:146
+#, python-format
+msgid "%s is available on Steam"
+msgstr "%s بھاپ پر دستیاب ہے"
+
+#: .././mint_exec_guard/exec_guard.py:151
+#, python-format
+msgid "%s is already installed"
+msgstr "%s پہلے سے ہی نصب ہے"
+
+#: .././mint_exec_guard/exec_guard.py:153
+#, python-format
+msgid "%s can be installed from Software"
+msgstr "%s سافٹ ویئر سے انسٹال کیا جا سکتا ہے"
+
+#: .././mint_exec_guard/exec_guard.py:157
+#, fuzzy, python-format
+msgid "%s is an alternative to %s."
+msgstr "%s کا ایک متبادل ہے."
+
+#: .././mint_exec_guard/exec_guard.py:174
+#, python-format
+msgid "%s is an unknown package."
+msgstr "%s ایک نامعلوم پیکج ہے."
+
+#: .././mint_exec_guard/exec_guard.py:174 .././bin/mint-exec-guard-windows:69
+msgid ""
+"Your computer and personal data may be vulnerable to a breach when running "
+"apps from unknown sources."
+msgstr ""
+"نامعلوم کمپیوٹر سے ایپس چلانے پر آپ کے کمپیوٹر اور ذاتی ڈیٹا کو کسی بھی خلاف "
+"ورزی کے لۓ خطرناک ہوسکتا ہے."
+
+#: .././mint_exec_guard/exec_guard.py:205
+#, python-format
+msgid "Launch %s"
+msgstr "%s شروع کریں"
+
+#: .././mint_exec_guard/exec_guard.py:211
+#, python-format
+msgid "Install %s"
+msgstr "%s انسٹال کریں"
+
+#: .././mint_exec_guard/exec_guard.py:352
+#, python-format
+msgid "%s has been installed"
+msgstr "%s انسٹال کیا گیا ہے"
+
+#: .././desktop/com.mint.exec-guard.linux.desktop.in.h:1
 #, fuzzy
 msgid "Install Linux Application"
 msgstr "لینکس کی درخواست انسٹال کریں"
 
-#: 
+#: .././desktop/com.mint.exec-guard.linux.desktop.in.h:2
 #, fuzzy
 msgid "Install Linux Applications"
 msgstr "لینکس ایپلیکیشنز انسٹال کریں"
 
-#: 
+#: .././desktop/com.mint.exec-guard.windows.desktop.in.h:1
 msgid "Install Windows Application"
 msgstr "ونڈوز کی درخواست انسٹال کریں"
 
-#: 
+#: .././desktop/com.mint.exec-guard.windows.desktop.in.h:2
 msgid "Install Windows Applications"
 msgstr "ونڈوز ایپلیکیشنز انسٹال کریں"
 
-#: 
-
-msgid "Are you sure you want to run %s?"
-msgstr "کیا آپ واقعی %s چلانا چاہتے ہیں؟"
-
-#: 
-
-msgid "%s is available on Steam"
-msgstr "%s بھاپ پر دستیاب ہے"
-
-#: 
-
-msgid "%s is already installed"
-msgstr "%s پہلے سے ہی نصب ہے"
-
-#: 
-
-msgid "%s can be installed from Software"
-msgstr "%s سافٹ ویئر سے انسٹال کیا جا سکتا ہے"
-
-#: 
-
-msgid "%s is an alternative to %s."
-msgstr "%s کا ایک متبادل ہے."
-
-#: 
-
-msgid "%s is an unknown package."
-msgstr "%s ایک نامعلوم پیکج ہے."
-
-#: 
-
-msgid "%s is an unknown Windows app."
-msgstr "%s ایک نامعلوم ونڈوز اے پی پی ہے."
-
-#: 
-msgid "Your computer and personal data may be vulnerable to a breach when running apps from unknown sources."
-msgstr "نامعلوم کمپیوٹر سے ایپس چلانے پر آپ کے کمپیوٹر اور ذاتی ڈیٹا کو کسی بھی خلاف ورزی کے لۓ خطرناک ہوسکتا ہے."
-
-#: 
-msgid "Some Windows apps may not be compatible with Windows App Support."
-msgstr "کچھ ونڈوز اطلاقات ونڈوز اپلی کیشن کے ساتھ مطابقت پذیر نہیں ہوسکتی ہے."
-
-#: 
-
-msgid "%s has been installed"
-msgstr "%s انسٹال کیا گیا ہے"
-
-#: 
-
+#: .././bin/mint-exec-guard-linux:32 .././bin/mint-exec-guard-windows:84
 msgid "Run anyway"
 msgstr "ویسے بھی چلائیں"
 
-#: 
-
-msgid "Launch %s"
-msgstr "%s شروع کریں"
-
-#: 
-
-msgid "Install %s"
-msgstr "%s انسٹال کریں"
-
-#: 
-msgid "Install Windows App Support"
-msgstr "ونڈوز اپلی کیشن انسٹال کریں"
-
-#: 
-
+#: .././bin/mint-exec-guard-windows:60
+#, c-format
 msgid "Install Windows App Support to run %s?"
 msgstr "%s چلانے کیلئے ونڈوز اپلی کیشن انسٹال کریں؟"
 
-#: 
-msgid "Installed"
-msgstr "انسٹال"
+#: .././bin/mint-exec-guard-windows:69
+#, c-format
+msgid "%s is an unknown Windows app."
+msgstr "%s ایک نامعلوم ونڈوز اے پی پی ہے."
 
-msgid "Archive Manager"
-msgstr "محفوظہ منیجر"
+#: .././bin/mint-exec-guard-windows:69
+msgid "Some Windows apps may not be compatible with Windows App Support."
+msgstr "کچھ ونڈوز اطلاقات ونڈوز اپلی کیشن کے ساتھ مطابقت پذیر نہیں ہوسکتی ہے."
 
-msgid "You can download Google Chrome (.deb package) for Zorin OS from the web"
-msgstr "آپ ویب سے زورین OS کے لئے گوگل کروم (.deb پیکیج) ڈاؤن لوڈ کرسکتے ہیں"
-
-msgid "You can download Dropbox (Ubuntu package) for Zorin OS from the web"
-msgstr "آپ ڈراپ باکس (اوبنٹو پیکیج) کو زیورین OS کے لئے ویب سے ڈاؤن لوڈ کرسکتے ہیں"
-
-msgid "You can download Itch (Linux package) for Zorin OS from the web"
-msgstr "آپ ویب سے زورین OS کے لئے کھجلی (لینکس پیکیج) ڈاؤن لوڈ کرسکتے ہیں"
-
-msgid "You can download TeamViewer (.deb package) for Zorin OS from the web"
-msgstr "آپ ویب سے زونین او ایس کے لئے ٹیم ویور (.deb پیکیج) ڈاؤن لوڈ کرسکتے ہیں"
-
-msgid "You can download Genymotion (Ubuntu package) for Zorin OS from the web"
-msgstr "آپ جورین او ایس کے لئے جینیموشن (اوبنٹو پیکیج) کو ویب سے ڈاؤن لوڈ کرسکتے ہیں"
-
-msgid "You can use WhatsApp on the web"
-msgstr "آپ ویب پر واٹس ایپ استعمال کرسکتے ہیں"
-
-msgid "League of Legends is available on Lutris"
-msgstr "لیگ آف لیجنڈس لیوٹرس پر دستیاب ہے"
-
-msgid "Overwatch is available on Lutris"
-msgstr "اورواچ لٹرز پر دستیاب ہے"
-
-msgid "Warframe is available on Lutris"
-msgstr "وارفریم لٹرز پر دستیاب ہے"
-
-msgid "World of Warcraft is available on Lutris"
-msgstr "ورلڈ وارکرافٹ لوٹریس پر دستیاب ہے"
-
-msgid "Zorin OS is already resistant to Windows viruses and malware"
-msgstr "زورین OS ونڈوز وائرس اور میلویئر کے خلاف پہلے ہی مزاحم ہے"
-
-msgid "Flash Player is no longer supported"
-msgstr "فلیش پلیئر اب تعاون یافتہ نہیں ہے"
-
-msgid "Install GNOME Boxes to run Microsoft Windows inside a Virtual Machine in Zorin OS"
-msgstr "زورین OS میں ورچوئل مشین کے اندر مائیکروسافٹ ونڈوز چلانے کے لئے جینیوم باکسز انسٹال کریں"
-
-msgid ".rar file support"
-msgstr ".rar فائل کی حمایت"
-
-msgid ".7z file support"
-msgstr ".7z فائل کی حمایت"
-
+#: .././bin/mint-exec-guard-windows:78
 msgid "Is this a video game?"
 msgstr "کیا یہ ویڈیو گیم ہے؟"
+
+#: .././bin/mint-exec-guard-windows:88
+msgid "Install Windows App Support"
+msgstr "ونڈوز اپلی کیشن انسٹال کریں"
+
+#~ msgid "Installed"
+#~ msgstr "انسٹال"
+
+#~ msgid "Archive Manager"
+#~ msgstr "محفوظہ منیجر"
+
+#~ msgid ""
+#~ "You can download Google Chrome (.deb package) for Linux Mint from the web"
+#~ msgstr ""
+#~ "آپ ویب سے زورین OS کے لئے گوگل کروم (.deb پیکیج) ڈاؤن لوڈ کرسکتے ہیں"
+
+#~ msgid ""
+#~ "You can download Dropbox (Ubuntu package) for Linux Mint from the web"
+#~ msgstr ""
+#~ "آپ ڈراپ باکس (اوبنٹو پیکیج) کو زیورین OS کے لئے ویب سے ڈاؤن لوڈ کرسکتے ہیں"
+
+#~ msgid "You can download Itch (Linux package) for Linux Mint from the web"
+#~ msgstr "آپ ویب سے زورین OS کے لئے کھجلی (لینکس پیکیج) ڈاؤن لوڈ کرسکتے ہیں"
+
+#~ msgid ""
+#~ "You can download TeamViewer (.deb package) for Linux Mint from the web"
+#~ msgstr ""
+#~ "آپ ویب سے زونین او ایس کے لئے ٹیم ویور (.deb پیکیج) ڈاؤن لوڈ کرسکتے ہیں"
+
+#~ msgid ""
+#~ "You can download Genymotion (Ubuntu package) for Linux Mint from the web"
+#~ msgstr ""
+#~ "آپ جورین او ایس کے لئے جینیموشن (اوبنٹو پیکیج) کو ویب سے ڈاؤن لوڈ کرسکتے "
+#~ "ہیں"
+
+#~ msgid "You can use WhatsApp on the web"
+#~ msgstr "آپ ویب پر واٹس ایپ استعمال کرسکتے ہیں"
+
+#~ msgid "League of Legends is available on Lutris"
+#~ msgstr "لیگ آف لیجنڈس لیوٹرس پر دستیاب ہے"
+
+#~ msgid "Overwatch is available on Lutris"
+#~ msgstr "اورواچ لٹرز پر دستیاب ہے"
+
+#~ msgid "Warframe is available on Lutris"
+#~ msgstr "وارفریم لٹرز پر دستیاب ہے"
+
+#~ msgid "World of Warcraft is available on Lutris"
+#~ msgstr "ورلڈ وارکرافٹ لوٹریس پر دستیاب ہے"
+
+#~ msgid "Linux Mint is already resistant to Windows viruses and malware"
+#~ msgstr "زورین OS ونڈوز وائرس اور میلویئر کے خلاف پہلے ہی مزاحم ہے"
+
+#~ msgid "Flash Player is no longer supported"
+#~ msgstr "فلیش پلیئر اب تعاون یافتہ نہیں ہے"
+
+#~ msgid ""
+#~ "Install GNOME Boxes to run Microsoft Windows inside a Virtual Machine in "
+#~ "Linux Mint"
+#~ msgstr ""
+#~ "زورین OS میں ورچوئل مشین کے اندر مائیکروسافٹ ونڈوز چلانے کے لئے جینیوم "
+#~ "باکسز انسٹال کریں"
+
+#~ msgid ".rar file support"
+#~ msgstr ".rar فائل کی حمایت"
+
+#~ msgid ".7z file support"
+#~ msgstr ".7z فائل کی حمایت"

@@ -1,6 +1,6 @@
 # This file is part of the Zorin Exec Guard program.
 #
-# Copyright 2018 Zorin OS Technologies Ltd.
+# Copyright 2018 Linux Mint Technologies Ltd.
 #
 # This program is free software; you can redistribute it and/or modify it
 # under the terms and conditions of the GNU General Public License,

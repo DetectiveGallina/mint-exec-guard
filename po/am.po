@@ -1,157 +1,161 @@
 msgid ""
 msgstr ""
+"Project-Id-Version: Linux Mint\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-03 23:18-0300\n"
+"Language: am\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: POEditor.com\n"
-"Project-Id-Version: Zorin OS\n"
-"Language: am\n"
 
-#: 
-msgid "Install Linux Application"
-msgstr "የ Linux ትግበራ ጫን"
-
-#: 
-msgid "Install Linux Applications"
-msgstr "የ Linux መተግበሪያዎች ይጫኑ"
-
-#: 
-msgid "Install Windows Application"
-msgstr "የ Windows ትግበራ ጫን"
-
-#: 
-msgid "Install Windows Applications"
-msgstr "የ Windows መተግበሪያዎችን ጫን"
-
-#: 
-
+#: .././mint_exec_guard/exec_guard.py:140
+#, python-format
 msgid "Are you sure you want to run %s?"
 msgstr "እርግጠኛ ነዎት%s መሄድ ይፈልጋሉ?"
 
-#: 
-#, fuzzy
-
+#: .././mint_exec_guard/exec_guard.py:146
+#, fuzzy, python-format
 msgid "%s is available on Steam"
 msgstr "%s በ Steam ውስጥ ይገኛል"
 
-#: 
-#, fuzzy
-
+#: .././mint_exec_guard/exec_guard.py:151
+#, fuzzy, python-format
 msgid "%s is already installed"
 msgstr "%s አስቀድሞ ተጭኗል"
 
-#: 
-#, fuzzy
-
+#: .././mint_exec_guard/exec_guard.py:153
+#, fuzzy, python-format
 msgid "%s can be installed from Software"
 msgstr "%s ከሶፍትዌር ሊጫን ይችላል"
 
-#: 
-
+#: .././mint_exec_guard/exec_guard.py:157
+#, python-format
 msgid "%s is an alternative to %s."
 msgstr "%s ለ %s አማራጭ ነው."
 
-#: 
-#, fuzzy
-
+#: .././mint_exec_guard/exec_guard.py:174
+#, fuzzy, python-format
 msgid "%s is an unknown package."
 msgstr "%s ያልታወቀ ጥቅል ነው."
 
-#: 
-
-msgid "%s is an unknown Windows app."
-msgstr "% s የማይታወቅ የዊንዶውስ መተግበሪያ ነው."
-
-#: 
-msgid "Your computer and personal data may be vulnerable to a breach when running apps from unknown sources."
+#: .././mint_exec_guard/exec_guard.py:174 .././bin/mint-exec-guard-windows:69
+msgid ""
+"Your computer and personal data may be vulnerable to a breach when running "
+"apps from unknown sources."
 msgstr "ከማይታወቁ ምንጮች መተግበሪያዎችን ሲሄዱ የእርስዎ ኮምፒተርዎ እና የግል ውሂብዎ ለአደጋ ሊጋለጥ ይችላል."
 
-#: 
-msgid "Some Windows apps may not be compatible with Windows App Support."
-msgstr "አንዳንድ የ Windows መተግበሪያዎች ከ Windows መተግበሪያ ድጋፍ ጋር ተኳሃኝ ላይሆኑ ይችላሉ."
-
-#: 
-#, fuzzy
-
-msgid "%s has been installed"
-msgstr "%s ተጭኗል"
-
-#: 
-#, fuzzy
-
-msgid "Run anyway"
-msgstr "ለማንኛውም አሂድ"
-
-#: 
-#, fuzzy
-
+#: .././mint_exec_guard/exec_guard.py:205
+#, fuzzy, python-format
 msgid "Launch %s"
 msgstr "%s ን አስነሳ"
 
-#: 
-#, fuzzy
-
+#: .././mint_exec_guard/exec_guard.py:211
+#, fuzzy, python-format
 msgid "Install %s"
 msgstr "%s ጫን"
 
-#: 
-msgid "Install Windows App Support"
-msgstr "የ Windows መተግበሪያ ድጋፍን ይጫኑ"
+#: .././mint_exec_guard/exec_guard.py:352
+#, fuzzy, python-format
+msgid "%s has been installed"
+msgstr "%s ተጭኗል"
 
-#: 
+#: .././desktop/com.mint.exec-guard.linux.desktop.in.h:1
+msgid "Install Linux Application"
+msgstr "የ Linux ትግበራ ጫን"
+
+#: .././desktop/com.mint.exec-guard.linux.desktop.in.h:2
+msgid "Install Linux Applications"
+msgstr "የ Linux መተግበሪያዎች ይጫኑ"
+
+#: .././desktop/com.mint.exec-guard.windows.desktop.in.h:1
+msgid "Install Windows Application"
+msgstr "የ Windows ትግበራ ጫን"
+
+#: .././desktop/com.mint.exec-guard.windows.desktop.in.h:2
+msgid "Install Windows Applications"
+msgstr "የ Windows መተግበሪያዎችን ጫን"
+
+#: .././bin/mint-exec-guard-linux:32 .././bin/mint-exec-guard-windows:84
 #, fuzzy
+msgid "Run anyway"
+msgstr "ለማንኛውም አሂድ"
 
+#: .././bin/mint-exec-guard-windows:60
+#, fuzzy, c-format
 msgid "Install Windows App Support to run %s?"
 msgstr "%s ለማሄድ የ Windows መተግበሪያ ድጋፍን ይጫኑ?"
 
-#: 
-msgid "Installed"
-msgstr "ተጭኗል"
+#: .././bin/mint-exec-guard-windows:69
+#, c-format
+msgid "%s is an unknown Windows app."
+msgstr "% s የማይታወቅ የዊንዶውስ መተግበሪያ ነው."
 
-msgid "Archive Manager"
-msgstr "የመዝገብ ቤት መቆጣጠሪያ"
+#: .././bin/mint-exec-guard-windows:69
+msgid "Some Windows apps may not be compatible with Windows App Support."
+msgstr "አንዳንድ የ Windows መተግበሪያዎች ከ Windows መተግበሪያ ድጋፍ ጋር ተኳሃኝ ላይሆኑ ይችላሉ."
 
-msgid "You can download Google Chrome (.deb package) for Zorin OS from the web"
-msgstr "ጉግል ክሮምን (.deb ጥቅል) ለዞሪን OS ከድር ማውረድ ይችላሉ"
+#: .././bin/mint-exec-guard-windows:78
+msgid "Is this a video game?"
+msgstr ""
 
-msgid "You can download Dropbox (Ubuntu package) for Zorin OS from the web"
-msgstr "Dropbox (የኡቡንቱ ጥቅል) ለዞሪን OS ከድር ማውረድ ይችላሉ"
+#: .././bin/mint-exec-guard-windows:88
+msgid "Install Windows App Support"
+msgstr "የ Windows መተግበሪያ ድጋፍን ይጫኑ"
 
-msgid "You can download Itch (Linux package) for Zorin OS from the web"
-msgstr "ለ Zorin OS ኢትች (ሊነክስ ጥቅል) ከድር ማውረድ ይችላሉ"
+#~ msgid "Installed"
+#~ msgstr "ተጭኗል"
 
-msgid "You can download TeamViewer (.deb package) for Zorin OS from the web"
-msgstr "TeamViewer (.deb ጥቅል) ለዞሪን OS ከድር ማውረድ ይችላሉ"
+#~ msgid "Archive Manager"
+#~ msgstr "የመዝገብ ቤት መቆጣጠሪያ"
 
-msgid "You can download Genymotion (Ubuntu package) for Zorin OS from the web"
-msgstr "Genymotion (የኡቡንቱ ጥቅል) ለዞሪን OS ከድር ማውረድ ይችላሉ"
+#~ msgid ""
+#~ "You can download Google Chrome (.deb package) for Linux Mint from the web"
+#~ msgstr "ጉግል ክሮምን (.deb ጥቅል) ለዞሪን OS ከድር ማውረድ ይችላሉ"
 
-msgid "You can use WhatsApp on the web"
-msgstr "ድር ላይ ዋትስአፕን መጠቀም ይችላሉ"
+#~ msgid ""
+#~ "You can download Dropbox (Ubuntu package) for Linux Mint from the web"
+#~ msgstr "Dropbox (የኡቡንቱ ጥቅል) ለዞሪን OS ከድር ማውረድ ይችላሉ"
 
-msgid "League of Legends is available on Lutris"
-msgstr "ሊግ ኦፍ Legends በሉትሪስ ላይ ይገኛል"
+#~ msgid "You can download Itch (Linux package) for Linux Mint from the web"
+#~ msgstr "ለ Linux Mint ኢትች (ሊነክስ ጥቅል) ከድር ማውረድ ይችላሉ"
 
-msgid "Overwatch is available on Lutris"
-msgstr "Overwatch በሉተር ላይ ይገኛል"
+#~ msgid ""
+#~ "You can download TeamViewer (.deb package) for Linux Mint from the web"
+#~ msgstr "TeamViewer (.deb ጥቅል) ለዞሪን OS ከድር ማውረድ ይችላሉ"
 
-msgid "Warframe is available on Lutris"
-msgstr "Warframe በሉተር ላይ ይገኛል"
+#~ msgid ""
+#~ "You can download Genymotion (Ubuntu package) for Linux Mint from the web"
+#~ msgstr "Genymotion (የኡቡንቱ ጥቅል) ለዞሪን OS ከድር ማውረድ ይችላሉ"
 
-msgid "World of Warcraft is available on Lutris"
-msgstr "የ Warcraft ዓለም በሉትሪስ ላይ ይገኛል"
+#~ msgid "You can use WhatsApp on the web"
+#~ msgstr "ድር ላይ ዋትስአፕን መጠቀም ይችላሉ"
 
-msgid "Zorin OS is already resistant to Windows viruses and malware"
-msgstr "Zorin OS ቀድሞውኑ ለዊንዶውስ ቫይረሶች እና ተንኮል-አዘል ዌር ተከላካይ ነው"
+#~ msgid "League of Legends is available on Lutris"
+#~ msgstr "ሊግ ኦፍ Legends በሉትሪስ ላይ ይገኛል"
 
-msgid "Flash Player is no longer supported"
-msgstr "ፍላሽ ማጫወቻ ከአሁን በኋላ አይደገፍም"
+#~ msgid "Overwatch is available on Lutris"
+#~ msgstr "Overwatch በሉተር ላይ ይገኛል"
 
-msgid "Install GNOME Boxes to run Microsoft Windows inside a Virtual Machine in Zorin OS"
-msgstr "ማይክሮሶፍት ዊንዶውስ በቨርን ኦኤስ ውስጥ በቨርቹዋል ማሽን ውስጥ ለማሄድ የ GNOME ሳጥኖችን ይጫኑ"
+#~ msgid "Warframe is available on Lutris"
+#~ msgstr "Warframe በሉተር ላይ ይገኛል"
 
-msgid ".rar file support"
-msgstr ".rar ፋይል ድጋፍ"
+#~ msgid "World of Warcraft is available on Lutris"
+#~ msgstr "የ Warcraft ዓለም በሉትሪስ ላይ ይገኛል"
 
-msgid ".7z file support"
-msgstr ".7z ፋይል ድጋፍ"
+#~ msgid "Linux Mint is already resistant to Windows viruses and malware"
+#~ msgstr "Linux Mint ቀድሞውኑ ለዊንዶውስ ቫይረሶች እና ተንኮል-አዘል ዌር ተከላካይ ነው"
+
+#~ msgid "Flash Player is no longer supported"
+#~ msgstr "ፍላሽ ማጫወቻ ከአሁን በኋላ አይደገፍም"
+
+#~ msgid ""
+#~ "Install GNOME Boxes to run Microsoft Windows inside a Virtual Machine in "
+#~ "Linux Mint"
+#~ msgstr "ማይክሮሶፍት ዊንዶውስ በቨርን ኦኤስ ውስጥ በቨርቹዋል ማሽን ውስጥ ለማሄድ የ GNOME ሳጥኖችን ይጫኑ"
+
+#~ msgid ".rar file support"
+#~ msgstr ".rar ፋይል ድጋፍ"
+
+#~ msgid ".7z file support"
+#~ msgstr ".7z ፋይል ድጋፍ"

@@ -1,156 +1,168 @@
 msgid ""
 msgstr ""
+"Project-Id-Version: Linux Mint\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-03 23:18-0300\n"
+"Language: gu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: POEditor.com\n"
-"Project-Id-Version: Zorin OS\n"
-"Language: gu\n"
 
-#: 
-msgid "Install Linux Application"
-msgstr "લિનક્સ એપ્લિકેશન સ્થાપિત કરો"
-
-#: 
-msgid "Install Linux Applications"
-msgstr "લિનક્સ એપ્લિકેશન્સ સ્થાપિત કરો"
-
-#: 
-msgid "Install Windows Application"
-msgstr "વિન્ડોઝ એપ્લિકેશન સ્થાપિત કરો"
-
-#: 
-msgid "Install Windows Applications"
-msgstr "વિન્ડોઝ એપ્લિકેશન્સ સ્થાપિત કરો"
-
-#: 
-
+#: .././mint_exec_guard/exec_guard.py:140
+#, python-format
 msgid "Are you sure you want to run %s?"
 msgstr "શું તમે ખરેખર %s ચલાવવા માંગો છો?"
 
-#: 
-
+#: .././mint_exec_guard/exec_guard.py:146
+#, python-format
 msgid "%s is available on Steam"
 msgstr "%s Steam પર ઉપલબ્ધ છે"
 
-#: 
-
+#: .././mint_exec_guard/exec_guard.py:151
+#, python-format
 msgid "%s is already installed"
 msgstr "%s પહેલાંથી જ સ્થાપિત છે"
 
-#: 
-
+#: .././mint_exec_guard/exec_guard.py:153
+#, python-format
 msgid "%s can be installed from Software"
 msgstr "%s સોફ્ટવેર ભંડાર માંથી સ્થાપિત થઈ શકે છે"
 
-#: 
-
+#: .././mint_exec_guard/exec_guard.py:157
+#, python-format
 msgid "%s is an alternative to %s."
 msgstr "%s ,  %s નો વિકલ્પ છે."
 
-#: 
-
+#: .././mint_exec_guard/exec_guard.py:174
+#, python-format
 msgid "%s is an unknown package."
 msgstr "%s અજાણ્યું પેકેજ છે."
 
-#: 
+#: .././mint_exec_guard/exec_guard.py:174 .././bin/mint-exec-guard-windows:69
+msgid ""
+"Your computer and personal data may be vulnerable to a breach when running "
+"apps from unknown sources."
+msgstr ""
+"તમારા કમ્પ્યુટર અને અંગત માહિતીની સુરક્ષા જોખમાય શકે છે જો તમે કોઈ અજાણ્યા માધ્યમથી "
+"તમારી એપ્લિકેશન ચલાવો તો."
 
-msgid "%s is an unknown Windows app."
-msgstr "%s અજાણી વિન્ડોઝ એપ્લિકેશન છે."
-
-#: 
-msgid "Your computer and personal data may be vulnerable to a breach when running apps from unknown sources."
-msgstr "તમારા કમ્પ્યુટર અને અંગત માહિતીની સુરક્ષા જોખમાય શકે છે જો તમે કોઈ અજાણ્યા માધ્યમથી તમારી એપ્લિકેશન ચલાવો તો."
-
-#: 
-msgid "Some Windows apps may not be compatible with Windows App Support."
-msgstr "કેટલીક વિન્ડોઝ એપ્લિકેશન્સ, વિન્ડોઝ એપ્લિકેશન સપોર્ટ સાથે સુસંગત હોઈ શકતી નથી."
-
-#: 
-#, fuzzy
-
-msgid "%s has been installed"
-msgstr "%s સ્થાપિત થયેલ છે"
-
-#: 
-#, fuzzy
-
-msgid "Run anyway"
-msgstr "કોઈપણ રીતે ચલાવો"
-
-#: 
-#, fuzzy
-
+#: .././mint_exec_guard/exec_guard.py:205
+#, fuzzy, python-format
 msgid "Launch %s"
 msgstr "%s લોન્ચ કરો"
 
-#: 
-#, fuzzy
-
+#: .././mint_exec_guard/exec_guard.py:211
+#, fuzzy, python-format
 msgid "Install %s"
 msgstr "%s ઇન્સ્ટોલ કરો"
 
-#: 
-msgid "Install Windows App Support"
-msgstr "વિન્ડોઝ એપ્લિકેશન સપોર્ટ ઇન્સ્ટોલ કરો"
+#: .././mint_exec_guard/exec_guard.py:352
+#, fuzzy, python-format
+msgid "%s has been installed"
+msgstr "%s સ્થાપિત થયેલ છે"
 
-#: 
+#: .././desktop/com.mint.exec-guard.linux.desktop.in.h:1
+msgid "Install Linux Application"
+msgstr "લિનક્સ એપ્લિકેશન સ્થાપિત કરો"
+
+#: .././desktop/com.mint.exec-guard.linux.desktop.in.h:2
+msgid "Install Linux Applications"
+msgstr "લિનક્સ એપ્લિકેશન્સ સ્થાપિત કરો"
+
+#: .././desktop/com.mint.exec-guard.windows.desktop.in.h:1
+msgid "Install Windows Application"
+msgstr "વિન્ડોઝ એપ્લિકેશન સ્થાપિત કરો"
+
+#: .././desktop/com.mint.exec-guard.windows.desktop.in.h:2
+msgid "Install Windows Applications"
+msgstr "વિન્ડોઝ એપ્લિકેશન્સ સ્થાપિત કરો"
+
+#: .././bin/mint-exec-guard-linux:32 .././bin/mint-exec-guard-windows:84
 #, fuzzy
+msgid "Run anyway"
+msgstr "કોઈપણ રીતે ચલાવો"
 
+#: .././bin/mint-exec-guard-windows:60
+#, fuzzy, c-format
 msgid "Install Windows App Support to run %s?"
 msgstr "%s ચલાવવા માટે વિન્ડોઝ એપ્લિકેશન સપોર્ટ ઇન્સ્ટોલ કરીએ?"
 
-#: 
-msgid "Installed"
-msgstr "ઇન્સ્ટોલ કરેલું"
+#: .././bin/mint-exec-guard-windows:69
+#, c-format
+msgid "%s is an unknown Windows app."
+msgstr "%s અજાણી વિન્ડોઝ એપ્લિકેશન છે."
 
-msgid "Archive Manager"
-msgstr "પેટીનો વ્યવસ્થાપક"
+#: .././bin/mint-exec-guard-windows:69
+msgid "Some Windows apps may not be compatible with Windows App Support."
+msgstr "કેટલીક વિન્ડોઝ એપ્લિકેશન્સ, વિન્ડોઝ એપ્લિકેશન સપોર્ટ સાથે સુસંગત હોઈ શકતી નથી."
 
-msgid "Document Viewer"
-msgstr "દસ્તાવેજ દર્શક"
+#: .././bin/mint-exec-guard-windows:78
+msgid "Is this a video game?"
+msgstr ""
 
-msgid "You can download Google Chrome (.deb package) for Zorin OS from the web"
-msgstr "તમે વેબમાંથી ઝorરિન ઓએસ માટે ગૂગલ ક્રોમ (.deb પેકેજ) ડાઉનલોડ કરી શકો છો"
+#: .././bin/mint-exec-guard-windows:88
+msgid "Install Windows App Support"
+msgstr "વિન્ડોઝ એપ્લિકેશન સપોર્ટ ઇન્સ્ટોલ કરો"
 
-msgid "You can download Dropbox (Ubuntu package) for Zorin OS from the web"
-msgstr "તમે વેબમાંથી ઝorરિન ઓએસ માટે ડ્રropપબboxક્સ (ઉબુન્ટુ પેકેજ) ડાઉનલોડ કરી શકો છો"
+#~ msgid "Installed"
+#~ msgstr "ઇન્સ્ટોલ કરેલું"
 
-msgid "You can download Itch (Linux package) for Zorin OS from the web"
-msgstr "તમે વેબમાંથી ઝોરિન ઓએસ માટે ખંજ (લિનક્સ પેકેજ) ડાઉનલોડ કરી શકો છો"
+#~ msgid "Archive Manager"
+#~ msgstr "પેટીનો વ્યવસ્થાપક"
 
-msgid "You can download TeamViewer (.deb package) for Zorin OS from the web"
-msgstr "તમે વેબમાંથી ઝોરીન ઓએસ માટે ટીમવીઅર (.deb પેકેજ) ડાઉનલોડ કરી શકો છો"
+#~ msgid "Document Viewer"
+#~ msgstr "દસ્તાવેજ દર્શક"
 
-msgid "You can download Genymotion (Ubuntu package) for Zorin OS from the web"
-msgstr "તમે વેબમાંથી જorરિન ઓએસ માટે જિનેમોશન (ઉબુન્ટુ પેકેજ) ડાઉનલોડ કરી શકો છો"
+#~ msgid ""
+#~ "You can download Google Chrome (.deb package) for Linux Mint from the web"
+#~ msgstr "તમે વેબમાંથી ઝorરિન ઓએસ માટે ગૂગલ ક્રોમ (.deb પેકેજ) ડાઉનલોડ કરી શકો છો"
 
-msgid "You can use WhatsApp on the web"
-msgstr "તમે વેબ પર વ WhatsAppટ્સએપનો ઉપયોગ કરી શકો છો"
+#~ msgid ""
+#~ "You can download Dropbox (Ubuntu package) for Linux Mint from the web"
+#~ msgstr "તમે વેબમાંથી ઝorરિન ઓએસ માટે ડ્રropપબboxક્સ (ઉબુન્ટુ પેકેજ) ડાઉનલોડ કરી શકો છો"
 
-msgid "League of Legends is available on Lutris"
-msgstr "લિગ Leફ લિજેન્ડ્સ લ્યુટ્રિસ પર ઉપલબ્ધ છે"
+#~ msgid "You can download Itch (Linux package) for Linux Mint from the web"
+#~ msgstr "તમે વેબમાંથી ઝોરિન ઓએસ માટે ખંજ (લિનક્સ પેકેજ) ડાઉનલોડ કરી શકો છો"
 
-msgid "Overwatch is available on Lutris"
-msgstr "ઓવરવોચ લ્યુટ્રિસ પર ઉપલબ્ધ છે"
+#~ msgid ""
+#~ "You can download TeamViewer (.deb package) for Linux Mint from the web"
+#~ msgstr "તમે વેબમાંથી ઝોરીન ઓએસ માટે ટીમવીઅર (.deb પેકેજ) ડાઉનલોડ કરી શકો છો"
 
-msgid "Warframe is available on Lutris"
-msgstr "વfફ્રેમ લ્યુટ્રિસ પર ઉપલબ્ધ છે"
+#~ msgid ""
+#~ "You can download Genymotion (Ubuntu package) for Linux Mint from the web"
+#~ msgstr "તમે વેબમાંથી જorરિન ઓએસ માટે જિનેમોશન (ઉબુન્ટુ પેકેજ) ડાઉનલોડ કરી શકો છો"
 
-msgid "World of Warcraft is available on Lutris"
-msgstr "વર્લ્ડ Warફ વ Worldક્રાફ્ટ લ્યુટ્રિસ પર ઉપલબ્ધ છે"
+#~ msgid "You can use WhatsApp on the web"
+#~ msgstr "તમે વેબ પર વ WhatsAppટ્સએપનો ઉપયોગ કરી શકો છો"
 
-msgid "Zorin OS is already resistant to Windows viruses and malware"
-msgstr "જોરિન ઓએસ વિન્ડોઝ વાયરસ અને મ malલવેર સામે પહેલાથી પ્રતિરોધક છે"
+#~ msgid "League of Legends is available on Lutris"
+#~ msgstr "લિગ Leફ લિજેન્ડ્સ લ્યુટ્રિસ પર ઉપલબ્ધ છે"
 
-msgid "Flash Player is no longer supported"
-msgstr "ફ્લેશ પ્લેયર હવે સમર્થિત નથી"
+#~ msgid "Overwatch is available on Lutris"
+#~ msgstr "ઓવરવોચ લ્યુટ્રિસ પર ઉપલબ્ધ છે"
 
-msgid "Install GNOME Boxes to run Microsoft Windows inside a Virtual Machine in Zorin OS"
-msgstr "જોરિન ઓએસમાં વર્ચ્યુઅલ મશીનની અંદર માઇક્રોસ .ફ્ટ વિન્ડોઝ ચલાવવા માટે જીનોમ બ Installક્સ ઇન્સ્ટોલ કરો"
+#~ msgid "Warframe is available on Lutris"
+#~ msgstr "વfફ્રેમ લ્યુટ્રિસ પર ઉપલબ્ધ છે"
 
-msgid ".rar file support"
-msgstr ".rar ફાઇલ સપોર્ટ"
+#~ msgid "World of Warcraft is available on Lutris"
+#~ msgstr "વર્લ્ડ Warફ વ Worldક્રાફ્ટ લ્યુટ્રિસ પર ઉપલબ્ધ છે"
 
-msgid ".7z file support"
-msgstr ".7z ફાઇલ સપોર્ટ"
+#~ msgid "Linux Mint is already resistant to Windows viruses and malware"
+#~ msgstr "જોરિન ઓએસ વિન્ડોઝ વાયરસ અને મ malલવેર સામે પહેલાથી પ્રતિરોધક છે"
+
+#~ msgid "Flash Player is no longer supported"
+#~ msgstr "ફ્લેશ પ્લેયર હવે સમર્થિત નથી"
+
+#~ msgid ""
+#~ "Install GNOME Boxes to run Microsoft Windows inside a Virtual Machine in "
+#~ "Linux Mint"
+#~ msgstr ""
+#~ "જોરિન ઓએસમાં વર્ચ્યુઅલ મશીનની અંદર માઇક્રોસ .ફ્ટ વિન્ડોઝ ચલાવવા માટે જીનોમ બ "
+#~ "Installક્સ ઇન્સ્ટોલ કરો"
+
+#~ msgid ".rar file support"
+#~ msgstr ".rar ફાઇલ સપોર્ટ"
+
+#~ msgid ".7z file support"
+#~ msgstr ".7z ફાઇલ સપોર્ટ"
