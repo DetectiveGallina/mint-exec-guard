@@ -415,9 +415,9 @@ def install_app_from_software(replacement):
             import subprocess
             subprocess.Popen(['mintinstall', '--search', app_id])
         else:
-            logging.warning('No se pudo determinar un ID valido de aplicacion para mintinstall.')
+            logging.warning('Could not determine a valid application ID for mintinstall.')
     except Exception as e:
-        logging.exception('Error al lanzar mintinstall: %s' % e)
+        logging.exception('Error launching mintinstall: %s' % e)
 def get_installed_flatpak_ref(app_id):
     try:
         return Flatpak.Installation.new_user(None).get_current_installed_app(app_id, None)
