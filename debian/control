@@ -18,4 +18,4 @@ Depends: ${python3:Depends}, ${misc:Depends}, python3-gi, gir1.2-gtk-3.0 (>= 3.1
 Recommends: mint-exec-guard-app-db
 Description: Shows a warning when attempting to run unknown apps
  Mint Exec Guard shows a warning when attempting to run unknown Linux or
- Windows executables and offers more trusted alternatives.
+ Windows executables and offers more trusted alternatives. Forked from the original Zorin Exec Guard.

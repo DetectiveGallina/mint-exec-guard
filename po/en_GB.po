@@ -3,9 +3,8 @@
 # This file is distributed under the same license as the Zorin Exec Guard package.
 msgid ""
 msgstr ""
-"Project-Id-Version: mint-exec-guard master\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-03 23:18-0300\n"
+"Project-Id-Version: zorin-exec-guard master\n"
+"POT-Creation-Date: 2018-10-22 10:29+0000\n"
 "PO-Revision-Date: 2018-10-23 11:51+0100\n"
 "Last-Translator: Artyom Zorin <azorin@zoringroup.com>\n"
 "Language: en_GB\n"
@@ -15,101 +14,71 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Virtaal 0.7.1\n"
 
-#: .././mint_exec_guard/exec_guard.py:140
-#, python-format
-msgid "Are you sure you want to run %s?"
-msgstr ""
-
-#: .././mint_exec_guard/exec_guard.py:146
-#, python-format
-msgid "%s is available on Steam"
-msgstr ""
-
-#: .././mint_exec_guard/exec_guard.py:151
-#, python-format
-msgid "%s is already installed"
-msgstr ""
-
-#: .././mint_exec_guard/exec_guard.py:153
-#, python-format
-msgid "%s can be installed from Software"
-msgstr ""
-
-#: .././mint_exec_guard/exec_guard.py:157
-#, python-format
-msgid "%s is an alternative to %s."
-msgstr ""
-
-#: .././mint_exec_guard/exec_guard.py:174
-#, python-format
-msgid "%s is an unknown package."
-msgstr ""
-
-#: .././mint_exec_guard/exec_guard.py:174 .././bin/mint-exec-guard-windows:69
-msgid ""
-"Your computer and personal data may be vulnerable to a breach when running "
-"apps from unknown sources."
-msgstr ""
-
-#: .././mint_exec_guard/exec_guard.py:205
-#, python-format
-msgid "Launch %s"
-msgstr ""
-
-#: .././mint_exec_guard/exec_guard.py:211
-#, python-format
-msgid "Install %s"
-msgstr ""
-
-#: .././mint_exec_guard/exec_guard.py:352
-#, python-format
-msgid "%s has been installed"
-msgstr ""
-
-#: .././desktop/com.mint.exec-guard.linux.desktop.in.h:1
 msgid "Install Linux Application"
 msgstr ""
 
-#: .././desktop/com.mint.exec-guard.linux.desktop.in.h:2
 msgid "Install Linux Applications"
 msgstr ""
 
-#: .././desktop/com.mint.exec-guard.windows.desktop.in.h:1
 msgid "Install Windows Application"
 msgstr ""
 
-#: .././desktop/com.mint.exec-guard.windows.desktop.in.h:2
 msgid "Install Windows Applications"
 msgstr ""
 
-#: .././bin/mint-exec-guard-linux:32 .././bin/mint-exec-guard-windows:84
-msgid "Run anyway"
+msgid "Are you sure you want to run %s?"
 msgstr ""
 
-#: .././bin/mint-exec-guard-windows:60
-#, c-format
-msgid "Install Windows App Support to run %s?"
+msgid "%s is available on Steam"
 msgstr ""
 
-#: .././bin/mint-exec-guard-windows:69
-#, c-format
+msgid "%s is already installed"
+msgstr ""
+
+msgid "%s can be installed from Software"
+msgstr ""
+
+msgid "%s is an alternative to %s."
+msgstr ""
+
+msgid "%s is an unknown package."
+msgstr ""
+
 msgid "%s is an unknown Windows app."
 msgstr ""
 
-#: .././bin/mint-exec-guard-windows:69
+msgid "Your computer and personal data may be vulnerable to a breach when running apps from unknown sources."
+msgstr ""
+
 msgid "Some Windows apps may not be compatible with Windows App Support."
 msgstr ""
 
-#: .././bin/mint-exec-guard-windows:78
-msgid "Is this a video game?"
-msgstr "Is this a video game?"
+msgid "%s has been installed"
+msgstr ""
 
-#: .././bin/mint-exec-guard-windows:88
+msgid "Run anyway"
+msgstr ""
+
+msgid "Launch %s"
+msgstr ""
+
+msgid "Install %s"
+msgstr ""
+
 msgid "Install Windows App Support"
 msgstr ""
 
-#~ msgid "Archive Manager"
-#~ msgstr "Archive Manager"
+msgid "Install Windows App Support to run %s?"
+msgstr ""
 
-#~ msgid "Document Viewer"
-#~ msgstr "Document Viewer"
+msgid "Installed"
+msgstr ""
+
+msgid "Archive Manager"
+msgstr "Archive Manager"
+
+msgid "Document Viewer"
+msgstr "Document Viewer"
+
+msgid "Is this a video game?"
+msgstr "Is this a video game?"

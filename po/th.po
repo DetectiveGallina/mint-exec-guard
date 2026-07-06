@@ -1,167 +1,166 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Linux Mint\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-03 23:18-0300\n"
-"Language: th\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: POEditor.com\n"
+"Project-Id-Version: Zorin OS\n"
+"Language: th\n"
 
-#: .././mint_exec_guard/exec_guard.py:140
-#, fuzzy, python-format
-msgid "Are you sure you want to run %s?"
-msgstr "คุณแน่ใจหรือไม่ว่าต้องการเรียกใช้ %s"
-
-#: .././mint_exec_guard/exec_guard.py:146
-#, fuzzy, python-format
-msgid "%s is available on Steam"
-msgstr "%s พร้อมใช้งานบน Steam"
-
-#: .././mint_exec_guard/exec_guard.py:151
-#, fuzzy, python-format
-msgid "%s is already installed"
-msgstr "ติดตั้ง %s แล้ว"
-
-#: .././mint_exec_guard/exec_guard.py:153
-#, fuzzy, python-format
-msgid "%s can be installed from Software"
-msgstr "%s สามารถติดตั้งได้จากซอฟต์แวร์"
-
-#: .././mint_exec_guard/exec_guard.py:157
-#, fuzzy, python-format
-msgid "%s is an alternative to %s."
-msgstr "%s เป็นทางเลือกแทน %s"
-
-#: .././mint_exec_guard/exec_guard.py:174
-#, fuzzy, python-format
-msgid "%s is an unknown package."
-msgstr "%s เป็นแพ็คเกจที่ไม่รู้จัก"
-
-#: .././mint_exec_guard/exec_guard.py:174 .././bin/mint-exec-guard-windows:69
-msgid ""
-"Your computer and personal data may be vulnerable to a breach when running "
-"apps from unknown sources."
-msgstr "คอมพิวเตอร์และข้อมูลส่วนบุคคลของคุณอาจเสี่ยงต่อการละเมิดเมื่อเรียกใช้แอพจากแหล่งที่ไม่รู้จัก"
-
-#: .././mint_exec_guard/exec_guard.py:205
-#, fuzzy, python-format
-msgid "Launch %s"
-msgstr "เปิดตัว %s"
-
-#: .././mint_exec_guard/exec_guard.py:211
-#, fuzzy, python-format
-msgid "Install %s"
-msgstr "ติดตั้ง %s"
-
-#: .././mint_exec_guard/exec_guard.py:352
-#, fuzzy, python-format
-msgid "%s has been installed"
-msgstr "ติดตั้ง %s แล้ว"
-
-#: .././desktop/com.mint.exec-guard.linux.desktop.in.h:1
+#: 
 msgid "Install Linux Application"
 msgstr "ติดตั้ง Linux Application"
 
-#: .././desktop/com.mint.exec-guard.linux.desktop.in.h:2
+#: 
 msgid "Install Linux Applications"
 msgstr "ติดตั้ง Linux Applications"
 
-#: .././desktop/com.mint.exec-guard.windows.desktop.in.h:1
+#: 
 msgid "Install Windows Application"
 msgstr "ติดตั้ง Windows Application"
 
-#: .././desktop/com.mint.exec-guard.windows.desktop.in.h:2
+#: 
 msgid "Install Windows Applications"
 msgstr "ติดตั้ง Windows Applications"
 
-#: .././bin/mint-exec-guard-linux:32 .././bin/mint-exec-guard-windows:84
+#: 
 #, fuzzy
-msgid "Run anyway"
-msgstr "เรียกใช้ ต่อไป"
 
-#: .././bin/mint-exec-guard-windows:60
-#, fuzzy, c-format
-msgid "Install Windows App Support to run %s?"
-msgstr "ติดตั้ง Windows App Support เพื่อเรียกใช้ %s หรือไม่"
+msgid "Are you sure you want to run %s?"
+msgstr "คุณแน่ใจหรือไม่ว่าต้องการเรียกใช้ %s"
 
-#: .././bin/mint-exec-guard-windows:69
-#, fuzzy, c-format
+#: 
+#, fuzzy
+
+msgid "%s is available on Steam"
+msgstr "%s พร้อมใช้งานบน Steam"
+
+#: 
+#, fuzzy
+
+msgid "%s is already installed"
+msgstr "ติดตั้ง %s แล้ว"
+
+#: 
+#, fuzzy
+
+msgid "%s can be installed from Software"
+msgstr "%s สามารถติดตั้งได้จากซอฟต์แวร์"
+
+#: 
+#, fuzzy
+
+msgid "%s is an alternative to %s."
+msgstr "%s เป็นทางเลือกแทน %s"
+
+#: 
+#, fuzzy
+
+msgid "%s is an unknown package."
+msgstr "%s เป็นแพ็คเกจที่ไม่รู้จัก"
+
+#: 
+#, fuzzy
+
 msgid "%s is an unknown Windows app."
 msgstr "%s เป็นแอพ Windows ที่ไม่รู้จัก"
 
-#: .././bin/mint-exec-guard-windows:69
+#: 
+msgid "Your computer and personal data may be vulnerable to a breach when running apps from unknown sources."
+msgstr "คอมพิวเตอร์และข้อมูลส่วนบุคคลของคุณอาจเสี่ยงต่อการละเมิดเมื่อเรียกใช้แอพจากแหล่งที่ไม่รู้จัก"
+
+#: 
 msgid "Some Windows apps may not be compatible with Windows App Support."
 msgstr "แอพ Windows บางตัวอาจไม่รองรับการใช้งาน Windows App"
 
-#: .././bin/mint-exec-guard-windows:78
-msgid "Is this a video game?"
-msgstr "นี่เป็นวิดีโอเกมหรือไม่?"
+#: 
+#, fuzzy
 
-#: .././bin/mint-exec-guard-windows:88
+msgid "%s has been installed"
+msgstr "ติดตั้ง %s แล้ว"
+
+#: 
+#, fuzzy
+
+msgid "Run anyway"
+msgstr "เรียกใช้ ต่อไป"
+
+#: 
+#, fuzzy
+
+msgid "Launch %s"
+msgstr "เปิดตัว %s"
+
+#: 
+#, fuzzy
+
+msgid "Install %s"
+msgstr "ติดตั้ง %s"
+
+#: 
 msgid "Install Windows App Support"
 msgstr "ติดตั้งการสนับสนุน Windows App"
 
-#~ msgid "Installed"
-#~ msgstr "การติดตั้ง"
+#: 
+#, fuzzy
 
-#~ msgid "Archive Manager"
-#~ msgstr "โปรแกรมจัดการแฟ้มจัดเก็บ"
+msgid "Install Windows App Support to run %s?"
+msgstr "ติดตั้ง Windows App Support เพื่อเรียกใช้ %s หรือไม่"
 
-#~ msgid "Document Viewer"
-#~ msgstr "โปรแกรมดูเอกสาร"
+#: 
+msgid "Installed"
+msgstr "การติดตั้ง"
 
-#~ msgid ""
-#~ "You can download Google Chrome (.deb package) for Linux Mint from the web"
-#~ msgstr ""
-#~ "คุณสามารถดาวน์โหลด Google Chrome (แพ็คเกจ .deb) สำหรับ Linux Mint ได้จากเว็บ"
+msgid "Archive Manager"
+msgstr "โปรแกรมจัดการแฟ้มจัดเก็บ"
 
-#~ msgid ""
-#~ "You can download Dropbox (Ubuntu package) for Linux Mint from the web"
-#~ msgstr "คุณสามารถดาวน์โหลด Dropbox (แพ็คเกจ Ubuntu) สำหรับ Linux Mint ได้จากเว็บ"
+msgid "Document Viewer"
+msgstr "โปรแกรมดูเอกสาร"
 
-#~ msgid "You can download Itch (Linux package) for Linux Mint from the web"
-#~ msgstr "คุณสามารถดาวน์โหลด Itch (แพ็คเกจ Linux) สำหรับ Linux Mint ได้จากเว็บ"
+msgid "You can download Google Chrome (.deb package) for Zorin OS from the web"
+msgstr "คุณสามารถดาวน์โหลด Google Chrome (แพ็คเกจ .deb) สำหรับ Zorin OS ได้จากเว็บ"
 
-#~ msgid ""
-#~ "You can download TeamViewer (.deb package) for Linux Mint from the web"
-#~ msgstr "คุณสามารถดาวน์โหลด TeamViewer (แพ็คเกจ .deb) สำหรับ Linux Mint ได้จากเว็บ"
+msgid "You can download Dropbox (Ubuntu package) for Zorin OS from the web"
+msgstr "คุณสามารถดาวน์โหลด Dropbox (แพ็คเกจ Ubuntu) สำหรับ Zorin OS ได้จากเว็บ"
 
-#~ msgid ""
-#~ "You can download Genymotion (Ubuntu package) for Linux Mint from the web"
-#~ msgstr ""
-#~ "คุณสามารถดาวน์โหลด Genymotion (แพ็คเกจ Ubuntu) สำหรับ Linux Mint ได้จากเว็บ"
+msgid "You can download Itch (Linux package) for Zorin OS from the web"
+msgstr "คุณสามารถดาวน์โหลด Itch (แพ็คเกจ Linux) สำหรับ Zorin OS ได้จากเว็บ"
 
-#~ msgid "You can use WhatsApp on the web"
-#~ msgstr "คุณสามารถใช้ WhatsApp บนเว็บได้"
+msgid "You can download TeamViewer (.deb package) for Zorin OS from the web"
+msgstr "คุณสามารถดาวน์โหลด TeamViewer (แพ็คเกจ .deb) สำหรับ Zorin OS ได้จากเว็บ"
 
-#~ msgid "League of Legends is available on Lutris"
-#~ msgstr "League of Legends มีอยู่ใน Lutris"
+msgid "You can download Genymotion (Ubuntu package) for Zorin OS from the web"
+msgstr "คุณสามารถดาวน์โหลด Genymotion (แพ็คเกจ Ubuntu) สำหรับ Zorin OS ได้จากเว็บ"
 
-#~ msgid "Overwatch is available on Lutris"
-#~ msgstr "Overwatch สามารถใช้ได้บน Lutristri"
+msgid "You can use WhatsApp on the web"
+msgstr "คุณสามารถใช้ WhatsApp บนเว็บได้"
 
-#~ msgid "Warframe is available on Lutris"
-#~ msgstr "Warframe พร้อมใช้งานบน Lutris"
+msgid "League of Legends is available on Lutris"
+msgstr "League of Legends มีอยู่ใน Lutris"
 
-#~ msgid "World of Warcraft is available on Lutris"
-#~ msgstr "World of Warcraft มีอยู่ใน Lutris"
+msgid "Overwatch is available on Lutris"
+msgstr "Overwatch สามารถใช้ได้บน Lutristri"
 
-#~ msgid "Linux Mint is already resistant to Windows viruses and malware"
-#~ msgstr "Linux Mint สามารถต้านทานไวรัสและมัลแวร์ของ Windows ได้แล้ว"
+msgid "Warframe is available on Lutris"
+msgstr "Warframe พร้อมใช้งานบน Lutris"
 
-#~ msgid "Flash Player is no longer supported"
-#~ msgstr "ไม่รองรับ Flash Player อีกต่อไป"
+msgid "World of Warcraft is available on Lutris"
+msgstr "World of Warcraft มีอยู่ใน Lutris"
 
-#~ msgid ""
-#~ "Install GNOME Boxes to run Microsoft Windows inside a Virtual Machine in "
-#~ "Linux Mint"
-#~ msgstr ""
-#~ "ติดตั้งกล่อง GNOME เพื่อเรียกใช้ Microsoft Windows ภายในเครื่องเสมือนใน Linux Mint"
+msgid "Zorin OS is already resistant to Windows viruses and malware"
+msgstr "Zorin OS สามารถต้านทานไวรัสและมัลแวร์ของ Windows ได้แล้ว"
 
-#~ msgid ".rar file support"
-#~ msgstr "รองรับไฟล์ .rar"
+msgid "Flash Player is no longer supported"
+msgstr "ไม่รองรับ Flash Player อีกต่อไป"
 
-#~ msgid ".7z file support"
-#~ msgstr "รองรับไฟล์ .7z"
+msgid "Install GNOME Boxes to run Microsoft Windows inside a Virtual Machine in Zorin OS"
+msgstr "ติดตั้งกล่อง GNOME เพื่อเรียกใช้ Microsoft Windows ภายในเครื่องเสมือนใน Zorin OS"
+
+msgid ".rar file support"
+msgstr "รองรับไฟล์ .rar"
+
+msgid ".7z file support"
+msgstr "รองรับไฟล์ .7z"
+
+msgid "Is this a video game?"
+msgstr "นี่เป็นวิดีโอเกมหรือไม่?"

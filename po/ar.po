@@ -1,168 +1,155 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Linux Mint\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-03 23:18-0300\n"
-"Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: POEditor.com\n"
+"Project-Id-Version: Zorin OS\n"
+"Language: ar\n"
 
-#: .././mint_exec_guard/exec_guard.py:140
-#, python-format
-msgid "Are you sure you want to run %s?"
-msgstr "هل تريد تشغيل %s؟"
-
-#: .././mint_exec_guard/exec_guard.py:146
-#, python-format
-msgid "%s is available on Steam"
-msgstr "%s متوفر في Steam"
-
-#: .././mint_exec_guard/exec_guard.py:151
-#, python-format
-msgid "%s is already installed"
-msgstr "%s تم تثبيثه مسبقا"
-
-#: .././mint_exec_guard/exec_guard.py:153
-#, python-format
-msgid "%s can be installed from Software"
-msgstr "%s يمكن تثبيثه من برنامج"
-
-#: .././mint_exec_guard/exec_guard.py:157
-#, python-format
-msgid "%s is an alternative to %s."
-msgstr "%s هو بديل ل %s"
-
-#: .././mint_exec_guard/exec_guard.py:174
-#, python-format
-msgid "%s is an unknown package."
-msgstr "%s هو تطبيق غير معروف."
-
-#: .././mint_exec_guard/exec_guard.py:174 .././bin/mint-exec-guard-windows:69
-msgid ""
-"Your computer and personal data may be vulnerable to a breach when running "
-"apps from unknown sources."
-msgstr ""
-"قد يكون الكمبيوتر والبيانات الشخصية عرضة للاختراق عند تشغيل تطبيقات من مصادر "
-"غير معروفة."
-
-#: .././mint_exec_guard/exec_guard.py:205
-#, python-format
-msgid "Launch %s"
-msgstr "إطلاق %s"
-
-#: .././mint_exec_guard/exec_guard.py:211
-#, python-format
-msgid "Install %s"
-msgstr "تثبيت %s"
-
-#: .././mint_exec_guard/exec_guard.py:352
-#, python-format
-msgid "%s has been installed"
-msgstr "تم تثبيث %s"
-
-#: .././desktop/com.mint.exec-guard.linux.desktop.in.h:1
+#: 
 msgid "Install Linux Application"
 msgstr "تثبيث تطبيق لينوكس"
 
-#: .././desktop/com.mint.exec-guard.linux.desktop.in.h:2
+#: 
 msgid "Install Linux Applications"
 msgstr "تثبيث تطبيقات لينوكس"
 
-#: .././desktop/com.mint.exec-guard.windows.desktop.in.h:1
+#: 
 msgid "Install Windows Application"
 msgstr "تثبيث تطبيق ويندوز"
 
-#: .././desktop/com.mint.exec-guard.windows.desktop.in.h:2
+#: 
 msgid "Install Windows Applications"
 msgstr "حمل تطبيقات ويندوز"
 
-#: .././bin/mint-exec-guard-linux:32 .././bin/mint-exec-guard-windows:84
-msgid "Run anyway"
-msgstr "تشغيل على كل حال"
+#. هل تريد تشغيل %s?
+#: 
 
-#: .././bin/mint-exec-guard-windows:60
-#, c-format
-msgid "Install Windows App Support to run %s?"
-msgstr "هل تريد تثبيت تطبيق دعم ويندوز لتشغيل %s ؟"
+msgid "Are you sure you want to run %s?"
+msgstr "هل تريد تشغيل %s؟"
 
-#: .././bin/mint-exec-guard-windows:69
-#, c-format
+#: 
+
+msgid "%s is available on Steam"
+msgstr "%s متوفر في Steam"
+
+#: 
+
+msgid "%s is already installed"
+msgstr "%s تم تثبيثه مسبقا"
+
+#: 
+
+msgid "%s can be installed from Software"
+msgstr "%s يمكن تثبيثه من برنامج"
+
+#: 
+
+msgid "%s is an alternative to %s."
+msgstr "%s هو بديل ل %s"
+
+#: 
+
+msgid "%s is an unknown package."
+msgstr "%s هو تطبيق غير معروف."
+
+#: 
+
 msgid "%s is an unknown Windows app."
 msgstr "%s هو تطبيق ويندوز غير معروف."
 
-#: .././bin/mint-exec-guard-windows:69
+#: 
+msgid "Your computer and personal data may be vulnerable to a breach when running apps from unknown sources."
+msgstr "قد يكون الكمبيوتر والبيانات الشخصية عرضة للاختراق عند تشغيل تطبيقات من مصادر غير معروفة."
+
+#: 
 msgid "Some Windows apps may not be compatible with Windows App Support."
 msgstr "بعض تطبيقات ويندوز قد لا تكون متلائمة مع تطبيق الدعم في ويندوز."
 
-#: .././bin/mint-exec-guard-windows:78
-msgid "Is this a video game?"
-msgstr "هل هذه لعبة فيديو؟"
+#: 
 
-#: .././bin/mint-exec-guard-windows:88
+msgid "%s has been installed"
+msgstr "تم تثبيث %s"
+
+#: 
+
+msgid "Run anyway"
+msgstr "تشغيل على كل حال"
+
+#: 
+
+msgid "Launch %s"
+msgstr "إطلاق %s"
+
+#: 
+
+msgid "Install %s"
+msgstr "تثبيت %s"
+
+#: 
 msgid "Install Windows App Support"
 msgstr "تثبيت دعم تطبيق ويندوز"
 
-#~ msgid "Installed"
-#~ msgstr "تم التثبيث"
+#: 
 
-#~ msgid "Archive Manager"
-#~ msgstr "مدير الأرشيفات"
+msgid "Install Windows App Support to run %s?"
+msgstr "هل تريد تثبيت تطبيق دعم ويندوز لتشغيل %s ؟"
 
-#~ msgid "Document Viewer"
-#~ msgstr "عارض المستندات"
+#: 
+msgid "Installed"
+msgstr "تم التثبيث"
 
-#~ msgid ""
-#~ "You can download Google Chrome (.deb package) for Linux Mint from the web"
-#~ msgstr "يمكنك تحميل متصفح قوقل كروم (ملفات deb.) على زورين من خلال اﻹنترنت"
+msgid "Archive Manager"
+msgstr "مدير الأرشيفات"
 
-#~ msgid ""
-#~ "You can download Dropbox (Ubuntu package) for Linux Mint from the web"
-#~ msgstr ""
-#~ "يمكنك تحميل دروب بوكس Dropbox (ملفات Ubuntu) على زورين من خلال اﻹنترنت"
+msgid "Document Viewer"
+msgstr "عارض المستندات"
 
-#~ msgid "You can download Itch (Linux package) for Linux Mint from the web"
-#~ msgstr "يمكنك تحميل إيتش (ملفات Linux) على زورين من خلال الانترنت"
+msgid "You can download Google Chrome (.deb package) for Zorin OS from the web"
+msgstr "يمكنك تحميل متصفح قوقل كروم (ملفات deb.) على زورين من خلال اﻹنترنت"
 
-#~ msgid ""
-#~ "You can download TeamViewer (.deb package) for Linux Mint from the web"
-#~ msgstr ""
-#~ "يمكنك تحميل تيم فيور TeamViewer (ملفات deb.) على زورين من خلال اﻹنترنت"
+msgid "You can download Dropbox (Ubuntu package) for Zorin OS from the web"
+msgstr "يمكنك تحميل دروب بوكس Dropbox (ملفات Ubuntu) على زورين من خلال اﻹنترنت"
 
-#~ msgid ""
-#~ "You can download Genymotion (Ubuntu package) for Linux Mint from the web"
-#~ msgstr ""
-#~ "يمكنك تحميل جينيموشن Genymotion (ملفات Ubuntu) على زورين من خلال اﻹنترنت"
+msgid "You can download Itch (Linux package) for Zorin OS from the web"
+msgstr "يمكنك تحميل إيتش (ملفات Linux) على زورين من خلال الانترنت"
 
-#~ msgid "You can use WhatsApp on the web"
-#~ msgstr "يمكنك إستعمال واتساب على اﻹنترنت"
+msgid "You can download TeamViewer (.deb package) for Zorin OS from the web"
+msgstr "يمكنك تحميل تيم فيور TeamViewer (ملفات deb.) على زورين من خلال اﻹنترنت"
 
-#~ msgid "League of Legends is available on Lutris"
-#~ msgstr "ليج أوف ليجندز متوفرة على تطبيق Lutris"
+msgid "You can download Genymotion (Ubuntu package) for Zorin OS from the web"
+msgstr "يمكنك تحميل جينيموشن Genymotion (ملفات Ubuntu) على زورين من خلال اﻹنترنت"
 
-#~ msgid "Overwatch is available on Lutris"
-#~ msgstr "أوفرواتش متوفرة على تطبيق Lutris"
+msgid "You can use WhatsApp on the web"
+msgstr "يمكنك إستعمال واتساب على اﻹنترنت"
 
-#~ msgid "Warframe is available on Lutris"
-#~ msgstr "وارفريم متوفرة على تطبيق Lutris"
+msgid "League of Legends is available on Lutris"
+msgstr "ليج أوف ليجندز متوفرة على تطبيق Lutris"
 
-#~ msgid "World of Warcraft is available on Lutris"
-#~ msgstr "وورلد أوف واركرافت WoW متوفرة على Lutris"
+msgid "Overwatch is available on Lutris"
+msgstr "أوفرواتش متوفرة على تطبيق Lutris"
 
-#~ msgid "Linux Mint is already resistant to Windows viruses and malware"
-#~ msgstr "زورين مقاوم لفيروسات وبرامج ويندوز الخبيثه"
+msgid "Warframe is available on Lutris"
+msgstr "وارفريم متوفرة على تطبيق Lutris"
 
-#~ msgid "Flash Player is no longer supported"
-#~ msgstr "رفع الدعم على مشغل فلاش"
+msgid "World of Warcraft is available on Lutris"
+msgstr "وورلد أوف واركرافت WoW متوفرة على Lutris"
 
-#~ msgid ""
-#~ "Install GNOME Boxes to run Microsoft Windows inside a Virtual Machine in "
-#~ "Linux Mint"
-#~ msgstr "قم بتنصيب برنامج Gnome Boxes لمحاكاة ويندوز عبر زورين"
+msgid "Zorin OS is already resistant to Windows viruses and malware"
+msgstr "زورين مقاوم لفيروسات وبرامج ويندوز الخبيثه"
 
-#~ msgid ".rar file support"
-#~ msgstr "دعم لصيغة الـrar"
+msgid "Flash Player is no longer supported"
+msgstr "رفع الدعم على مشغل فلاش"
 
-#~ msgid ".7z file support"
-#~ msgstr "دعم لصيغة الـ7z"
+msgid "Install GNOME Boxes to run Microsoft Windows inside a Virtual Machine in Zorin OS"
+msgstr "قم بتنصيب برنامج Gnome Boxes لمحاكاة ويندوز عبر زورين"
+
+msgid ".rar file support"
+msgstr "دعم لصيغة الـrar"
+
+msgid ".7z file support"
+msgstr "دعم لصيغة الـ7z"
+
+msgid "Is this a video game?"
+msgstr "هل هذه لعبة فيديو؟"

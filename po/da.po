@@ -1,170 +1,154 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Linux Mint\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-03 23:18-0300\n"
-"Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: POEditor.com\n"
+"Project-Id-Version: Zorin OS\n"
+"Language: da\n"
 
-#: .././mint_exec_guard/exec_guard.py:140
-#, python-format
-msgid "Are you sure you want to run %s?"
-msgstr "Er du sidder på at du vil køre %s?"
-
-#: .././mint_exec_guard/exec_guard.py:146
-#, python-format
-msgid "%s is available on Steam"
-msgstr "%s er tilgængelig på Steam"
-
-#: .././mint_exec_guard/exec_guard.py:151
-#, python-format
-msgid "%s is already installed"
-msgstr "%s er allerede installeret"
-
-#: .././mint_exec_guard/exec_guard.py:153
-#, python-format
-msgid "%s can be installed from Software"
-msgstr "%s kan installeres fra Software"
-
-#: .././mint_exec_guard/exec_guard.py:157
-#, python-format
-msgid "%s is an alternative to %s."
-msgstr "%s er et alternativ til %s."
-
-#: .././mint_exec_guard/exec_guard.py:174
-#, python-format
-msgid "%s is an unknown package."
-msgstr "%s er en ukendt pakke."
-
-#: .././mint_exec_guard/exec_guard.py:174 .././bin/mint-exec-guard-windows:69
-msgid ""
-"Your computer and personal data may be vulnerable to a breach when running "
-"apps from unknown sources."
-msgstr ""
-"Din computer og personlige data kan være sårbar over for et brud når du "
-"kører apps fra en ukendt kilde."
-
-#: .././mint_exec_guard/exec_guard.py:205
-#, python-format
-msgid "Launch %s"
-msgstr "Kør %s"
-
-#: .././mint_exec_guard/exec_guard.py:211
-#, python-format
-msgid "Install %s"
-msgstr "Installer %s"
-
-#: .././mint_exec_guard/exec_guard.py:352
-#, python-format
-msgid "%s has been installed"
-msgstr "%s er blevet installeret"
-
-#: .././desktop/com.mint.exec-guard.linux.desktop.in.h:1
+#: 
 msgid "Install Linux Application"
 msgstr "Installer Linux Program"
 
-#: .././desktop/com.mint.exec-guard.linux.desktop.in.h:2
+#: 
 msgid "Install Linux Applications"
 msgstr "Installer Linux Programer"
 
-#: .././desktop/com.mint.exec-guard.windows.desktop.in.h:1
+#: 
 msgid "Install Windows Application"
 msgstr "Installer Windows Program"
 
-#: .././desktop/com.mint.exec-guard.windows.desktop.in.h:2
+#: 
 msgid "Install Windows Applications"
 msgstr "Installer Windows Programmer"
 
-#: .././bin/mint-exec-guard-linux:32 .././bin/mint-exec-guard-windows:84
-msgid "Run anyway"
-msgstr "Kør alligevel"
+#: 
 
-#: .././bin/mint-exec-guard-windows:60
-#, c-format
-msgid "Install Windows App Support to run %s?"
-msgstr "Installere Windows Program Støtte for at køre %s?"
+msgid "Are you sure you want to run %s?"
+msgstr "Er du sidder på at du vil køre %s?"
 
-#: .././bin/mint-exec-guard-windows:69
-#, c-format
+#: 
+
+msgid "%s is available on Steam"
+msgstr "%s er tilgængelig på Steam"
+
+#: 
+
+msgid "%s is already installed"
+msgstr "%s er allerede installeret"
+
+#: 
+
+msgid "%s can be installed from Software"
+msgstr "%s kan installeres fra Software"
+
+#: 
+
+msgid "%s is an alternative to %s."
+msgstr "%s er et alternativ til %s."
+
+#: 
+
+msgid "%s is an unknown package."
+msgstr "%s er en ukendt pakke."
+
+#: 
+
 msgid "%s is an unknown Windows app."
 msgstr "%s er et ukendt Windows program."
 
-#: .././bin/mint-exec-guard-windows:69
+#: 
+msgid "Your computer and personal data may be vulnerable to a breach when running apps from unknown sources."
+msgstr "Din computer og personlige data kan være sårbar over for et brud når du kører apps fra en ukendt kilde."
+
+#: 
 msgid "Some Windows apps may not be compatible with Windows App Support."
 msgstr "Nogle Windows apps er måske ikke kompatibel med Windows App Support."
 
-#: .././bin/mint-exec-guard-windows:78
-msgid "Is this a video game?"
-msgstr "Er dette et videospil?"
+#: 
 
-#: .././bin/mint-exec-guard-windows:88
+msgid "%s has been installed"
+msgstr "%s er blevet installeret"
+
+#: 
+
+msgid "Run anyway"
+msgstr "Kør alligevel"
+
+#: 
+
+msgid "Launch %s"
+msgstr "Kør %s"
+
+#: 
+
+msgid "Install %s"
+msgstr "Installer %s"
+
+#: 
 msgid "Install Windows App Support"
 msgstr "Installer Windows Program Støtte"
 
-#~ msgid "Installed"
-#~ msgstr "Installeret"
+#: 
 
-#~ msgid "Archive Manager"
-#~ msgstr "Arkivhåndtering"
+msgid "Install Windows App Support to run %s?"
+msgstr "Installere Windows Program Støtte for at køre %s?"
 
-#~ msgid "Document Viewer"
-#~ msgstr "Dokumentfremviser"
+#: 
+msgid "Installed"
+msgstr "Installeret"
 
-#~ msgid ""
-#~ "You can download Google Chrome (.deb package) for Linux Mint from the web"
-#~ msgstr ""
-#~ "Du kan hente Google Chrome (.deb pakke) til Linux Mint fra internettet"
+msgid "Archive Manager"
+msgstr "Arkivhåndtering"
 
-#~ msgid ""
-#~ "You can download Dropbox (Ubuntu package) for Linux Mint from the web"
-#~ msgstr "Du kan hente Dropbox (Ubuntu pakke) til Linux Mint fra internettet"
+msgid "Document Viewer"
+msgstr "Dokumentfremviser"
 
-#~ msgid "You can download Itch (Linux package) for Linux Mint from the web"
-#~ msgstr "Du kan hente Itch (Linux pakke) til Linux Mint fra internettet"
+msgid "You can download Google Chrome (.deb package) for Zorin OS from the web"
+msgstr "Du kan hente Google Chrome (.deb pakke) til Zorin OS fra internettet"
 
-#~ msgid ""
-#~ "You can download TeamViewer (.deb package) for Linux Mint from the web"
-#~ msgstr "Du kan hente TeamViewer (.deb pakke) til Linux Mint fra internettet"
+msgid "You can download Dropbox (Ubuntu package) for Zorin OS from the web"
+msgstr "Du kan hente Dropbox (Ubuntu pakke) til Zorin OS fra internettet"
 
-#~ msgid ""
-#~ "You can download Genymotion (Ubuntu package) for Linux Mint from the web"
-#~ msgstr ""
-#~ "Du kan hente Genymotion (Ubuntu pakke) til Linux Mint fra internettet"
+msgid "You can download Itch (Linux package) for Zorin OS from the web"
+msgstr "Du kan hente Itch (Linux pakke) til Zorin OS fra internettet"
 
-#~ msgid "You can use WhatsApp on the web"
-#~ msgstr "Du kan bruge WhatsApp på internettet"
+msgid "You can download TeamViewer (.deb package) for Zorin OS from the web"
+msgstr "Du kan hente TeamViewer (.deb pakke) til Zorin OS fra internettet"
 
-#~ msgid "League of Legends is available on Lutris"
-#~ msgstr "League of Legends er tilgængeligt på Lutris"
+msgid "You can download Genymotion (Ubuntu package) for Zorin OS from the web"
+msgstr "Du kan hente Genymotion (Ubuntu pakke) til Zorin OS fra internettet"
 
-#~ msgid "Overwatch is available on Lutris"
-#~ msgstr "Overwatch er tilgængeligt på Lutris"
+msgid "You can use WhatsApp on the web"
+msgstr "Du kan bruge WhatsApp på internettet"
 
-#~ msgid "Warframe is available on Lutris"
-#~ msgstr "Warframe er tilgængeligt på Lutris"
+msgid "League of Legends is available on Lutris"
+msgstr "League of Legends er tilgængeligt på Lutris"
 
-#~ msgid "World of Warcraft is available on Lutris"
-#~ msgstr "World of Warcraft er tilgængeligt på Lutris"
+msgid "Overwatch is available on Lutris"
+msgstr "Overwatch er tilgængeligt på Lutris"
 
-#~ msgid "Linux Mint is already resistant to Windows viruses and malware"
-#~ msgstr ""
-#~ "Zoris OS er modstanddygtigt allerede over for Windows virusser og malware"
+msgid "Warframe is available on Lutris"
+msgstr "Warframe er tilgængeligt på Lutris"
 
-#~ msgid "Flash Player is no longer supported"
-#~ msgstr "Flash Player understøttes ikke længere"
+msgid "World of Warcraft is available on Lutris"
+msgstr "World of Warcraft er tilgængeligt på Lutris"
 
-#~ msgid ""
-#~ "Install GNOME Boxes to run Microsoft Windows inside a Virtual Machine in "
-#~ "Linux Mint"
-#~ msgstr ""
-#~ "Installer GNOME Boxes for at afvikle Microsoft Windows i et virtuel miljø "
-#~ "på Linux Mint"
+msgid "Zorin OS is already resistant to Windows viruses and malware"
+msgstr "Zoris OS er modstanddygtigt allerede over for Windows virusser og malware"
 
-#~ msgid ".rar file support"
-#~ msgstr ".rar fil understøttelse"
+msgid "Flash Player is no longer supported"
+msgstr "Flash Player understøttes ikke længere"
 
-#~ msgid ".7z file support"
-#~ msgstr ".7z fil understøttelse"
+msgid "Install GNOME Boxes to run Microsoft Windows inside a Virtual Machine in Zorin OS"
+msgstr "Installer GNOME Boxes for at afvikle Microsoft Windows i et virtuel miljø på Zorin OS"
+
+msgid ".rar file support"
+msgstr ".rar fil understøttelse"
+
+msgid ".7z file support"
+msgstr ".7z fil understøttelse"
+
+msgid "Is this a video game?"
+msgstr "Er dette et videospil?"

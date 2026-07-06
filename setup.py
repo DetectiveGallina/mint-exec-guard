@@ -12,7 +12,7 @@ setup(
     author='Facundo Godoy',
     author_email='facundogodoyrentero@gmail.com',
     description='Mint Exec Guard',
-    long_description=("Mint Exec Guard shows a warning when attempting to run unknown Linux or Windows executables and offers more trusted alternatives. Ported from the original Zorin Exec Guard."),
+    long_description=("Mint Exec Guard shows a warning when attempting to run unknown Linux or Windows executables and offers more trusted alternatives. Forked from the original Zorin Exec Guard."),
     license='GPL-3.0',
 
     packages=['mint_exec_guard'],

@@ -1,177 +1,173 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Linux Mint\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-03 23:18-0300\n"
-"Language: sk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: POEditor.com\n"
+"Project-Id-Version: Zorin OS\n"
+"Language: sk\n"
 
-#: .././mint_exec_guard/exec_guard.py:140
-#, fuzzy, python-format
-msgid "Are you sure you want to run %s?"
-msgstr "Naozaj chcete spustiť %s?"
-
-#: .././mint_exec_guard/exec_guard.py:146
-#, fuzzy, python-format
-msgid "%s is available on Steam"
-msgstr "%s je k dispozícii v službe Steam"
-
-#: .././mint_exec_guard/exec_guard.py:151
-#, fuzzy, python-format
-msgid "%s is already installed"
-msgstr "%s je nainštalovaných"
-
-#: .././mint_exec_guard/exec_guard.py:153
-#, fuzzy, python-format
-msgid "%s can be installed from Software"
-msgstr "%s je nainštalovaných zo softvéru"
-
-#: .././mint_exec_guard/exec_guard.py:157
-#, fuzzy, python-format
-msgid "%s is an alternative to %s."
-msgstr "%s je alternatívou k %s."
-
-#: .././mint_exec_guard/exec_guard.py:174
-#, fuzzy, python-format
-msgid "%s is an unknown package."
-msgstr "%s je neznámy balík."
-
-#: .././mint_exec_guard/exec_guard.py:174 .././bin/mint-exec-guard-windows:69
-#, fuzzy
-msgid ""
-"Your computer and personal data may be vulnerable to a breach when running "
-"apps from unknown sources."
-msgstr ""
-"Pri spúšťaní aplikácií z neznámych zdrojov môže byť váš počítač a osobné "
-"údaje zraniteľné."
-
-#: .././mint_exec_guard/exec_guard.py:205
-#, fuzzy, python-format
-msgid "Launch %s"
-msgstr "Spustiť %s"
-
-#: .././mint_exec_guard/exec_guard.py:211
-#, fuzzy, python-format
-msgid "Install %s"
-msgstr "Inštalovať %s"
-
-#: .././mint_exec_guard/exec_guard.py:352
-#, fuzzy, python-format
-msgid "%s has been installed"
-msgstr "%s bol nainštalovaný"
-
-#: .././desktop/com.mint.exec-guard.linux.desktop.in.h:1
+#: 
 msgid "Install Linux Application"
 msgstr "Nainštalujte aplikáciu Linux"
 
-#: .././desktop/com.mint.exec-guard.linux.desktop.in.h:2
+#: 
 #, fuzzy
 msgid "Install Linux Applications"
 msgstr "Nainštalujte aplikácie Linux"
 
-#: .././desktop/com.mint.exec-guard.windows.desktop.in.h:1
+#: 
 #, fuzzy
 msgid "Install Windows Application"
 msgstr "Nainštalujte aplikáciu Windows"
 
-#: .././desktop/com.mint.exec-guard.windows.desktop.in.h:2
+#: 
 #, fuzzy
 msgid "Install Windows Applications"
 msgstr "Nainštalujte aplikácie Windows"
 
-#: .././bin/mint-exec-guard-linux:32 .././bin/mint-exec-guard-windows:84
+#: 
 #, fuzzy
-msgid "Run anyway"
-msgstr "Spustite akokoľvek"
 
-#: .././bin/mint-exec-guard-windows:60
-#, fuzzy, c-format
-msgid "Install Windows App Support to run %s?"
-msgstr "Nainštalujte Windows podporu aplikácií na spustenie %s?"
+msgid "Are you sure you want to run %s?"
+msgstr "Naozaj chcete spustiť %s?"
 
-#: .././bin/mint-exec-guard-windows:69
-#, fuzzy, c-format
+#: 
+#, fuzzy
+
+msgid "%s is available on Steam"
+msgstr "%s je k dispozícii v službe Steam"
+
+#: 
+#, fuzzy
+
+msgid "%s is already installed"
+msgstr "%s je nainštalovaných"
+
+#: 
+#, fuzzy
+
+msgid "%s can be installed from Software"
+msgstr "%s je nainštalovaných zo softvéru"
+
+#: 
+#, fuzzy
+
+msgid "%s is an alternative to %s."
+msgstr "%s je alternatívou k %s."
+
+#: 
+#, fuzzy
+
+msgid "%s is an unknown package."
+msgstr "%s je neznámy balík."
+
+#: 
+#, fuzzy
+
 msgid "%s is an unknown Windows app."
 msgstr "%s je neznáma aplikácia Windows."
 
-#: .././bin/mint-exec-guard-windows:69
+#: 
+#, fuzzy
+msgid "Your computer and personal data may be vulnerable to a breach when running apps from unknown sources."
+msgstr "Pri spúšťaní aplikácií z neznámych zdrojov môže byť váš počítač a osobné údaje zraniteľné."
+
+#: 
 #, fuzzy
 msgid "Some Windows apps may not be compatible with Windows App Support."
-msgstr ""
-"Niektoré aplikácie Windows nemusia byť kompatibilné s Windows podporou "
-"aplikácií."
+msgstr "Niektoré aplikácie Windows nemusia byť kompatibilné s Windows podporou aplikácií."
 
-#: .././bin/mint-exec-guard-windows:78
-msgid "Is this a video game?"
-msgstr "Je to videohra?"
+#: 
+#, fuzzy
 
-#: .././bin/mint-exec-guard-windows:88
+msgid "%s has been installed"
+msgstr "%s bol nainštalovaný"
+
+#: 
+#, fuzzy
+
+msgid "Run anyway"
+msgstr "Spustite akokoľvek"
+
+#: 
+#, fuzzy
+
+msgid "Launch %s"
+msgstr "Spustiť %s"
+
+#: 
+#, fuzzy
+
+msgid "Install %s"
+msgstr "Inštalovať %s"
+
+#: 
 #, fuzzy
 msgid "Install Windows App Support"
 msgstr "Nainštalujte podporu Windows aplikácií"
 
+#: 
 #, fuzzy
-#~ msgid "Installed"
-#~ msgstr "Nainštalovaný"
 
-#~ msgid "Archive Manager"
-#~ msgstr "Správca archívov"
+msgid "Install Windows App Support to run %s?"
+msgstr "Nainštalujte Windows podporu aplikácií na spustenie %s?"
 
-#~ msgid "Document Viewer"
-#~ msgstr "Prehliadač dokumentov"
+#: 
+#, fuzzy
+msgid "Installed"
+msgstr "Nainštalovaný"
 
-#~ msgid ""
-#~ "You can download Google Chrome (.deb package) for Linux Mint from the web"
-#~ msgstr "Môžete stiahnuť Google Chrome (.deb balík) pre Linux Mint cez web"
+msgid "Archive Manager"
+msgstr "Správca archívov"
 
-#~ msgid ""
-#~ "You can download Dropbox (Ubuntu package) for Linux Mint from the web"
-#~ msgstr "Môžete stiahnuť Dropbox (Ubuntu balík) pre Linux Mint cez web"
+msgid "Document Viewer"
+msgstr "Prehliadač dokumentov"
 
-#~ msgid "You can download Itch (Linux package) for Linux Mint from the web"
-#~ msgstr "Môžete stiahnuť Itch (Linux balík) pre Linux Mint cez web"
+msgid "You can download Google Chrome (.deb package) for Zorin OS from the web"
+msgstr "Môžete stiahnuť Google Chrome (.deb balík) pre Zorin OS cez web"
 
-#~ msgid ""
-#~ "You can download TeamViewer (.deb package) for Linux Mint from the web"
-#~ msgstr "Môžete stiahnuť TeamViewer (.deb balík) pre Linux Mint cez web"
+msgid "You can download Dropbox (Ubuntu package) for Zorin OS from the web"
+msgstr "Môžete stiahnuť Dropbox (Ubuntu balík) pre Zorin OS cez web"
 
-#~ msgid ""
-#~ "You can download Genymotion (Ubuntu package) for Linux Mint from the web"
-#~ msgstr "Môžete stiahnuť Gynemotion (Ubuntu balík) pre Linux Mint cez web"
+msgid "You can download Itch (Linux package) for Zorin OS from the web"
+msgstr "Môžete stiahnuť Itch (Linux balík) pre Zorin OS cez web"
 
-#~ msgid "You can use WhatsApp on the web"
-#~ msgstr "Môžete používať WhatsApp cez web"
+msgid "You can download TeamViewer (.deb package) for Zorin OS from the web"
+msgstr "Môžete stiahnuť TeamViewer (.deb balík) pre Zorin OS cez web"
 
-#~ msgid "League of Legends is available on Lutris"
-#~ msgstr "League of Legends je dostupný na Lutris"
+msgid "You can download Genymotion (Ubuntu package) for Zorin OS from the web"
+msgstr "Môžete stiahnuť Gynemotion (Ubuntu balík) pre Zorin OS cez web"
 
-#~ msgid "Overwatch is available on Lutris"
-#~ msgstr "Overwatch je dostupný na Lutris"
+msgid "You can use WhatsApp on the web"
+msgstr "Môžete používať WhatsApp cez web"
 
-#~ msgid "Warframe is available on Lutris"
-#~ msgstr "Warframe je dostupný na Lutris"
+msgid "League of Legends is available on Lutris"
+msgstr "League of Legends je dostupný na Lutris"
 
-#~ msgid "World of Warcraft is available on Lutris"
-#~ msgstr "World of Warcraft je dostupný na Lutris"
+msgid "Overwatch is available on Lutris"
+msgstr "Overwatch je dostupný na Lutris"
 
-#~ msgid "Linux Mint is already resistant to Windows viruses and malware"
-#~ msgstr "Linux Mint je odolný voči Windowsovým vírusom a malvérom"
+msgid "Warframe is available on Lutris"
+msgstr "Warframe je dostupný na Lutris"
 
-#~ msgid "Flash Player is no longer supported"
-#~ msgstr "Flash Player už nie je podporovaný"
+msgid "World of Warcraft is available on Lutris"
+msgstr "World of Warcraft je dostupný na Lutris"
 
-#~ msgid ""
-#~ "Install GNOME Boxes to run Microsoft Windows inside a Virtual Machine in "
-#~ "Linux Mint"
-#~ msgstr ""
-#~ "Nainštalujte GNOME Boxes pre spustenie Microsoft Windows vo virtualizácii "
-#~ "cez Linux Mint"
+msgid "Zorin OS is already resistant to Windows viruses and malware"
+msgstr "Zorin OS je odolný voči Windowsovým vírusom a malvérom"
 
-#~ msgid ".rar file support"
-#~ msgstr "podpora súborov .rar"
+msgid "Flash Player is no longer supported"
+msgstr "Flash Player už nie je podporovaný"
 
-#~ msgid ".7z file support"
-#~ msgstr "podpora súborov .7zip"
+msgid "Install GNOME Boxes to run Microsoft Windows inside a Virtual Machine in Zorin OS"
+msgstr "Nainštalujte GNOME Boxes pre spustenie Microsoft Windows vo virtualizácii cez Zorin OS"
+
+msgid ".rar file support"
+msgstr "podpora súborov .rar"
+
+msgid ".7z file support"
+msgstr "podpora súborov .7zip"
+
+msgid "Is this a video game?"
+msgstr "Je to videohra?"

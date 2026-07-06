@@ -1,163 +1,154 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Linux Mint\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-03 23:18-0300\n"
-"Language: zh-hk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: POEditor.com\n"
+"Project-Id-Version: Zorin OS\n"
+"Language: zh-hk\n"
 
-#: .././mint_exec_guard/exec_guard.py:140
-#, python-format
-msgid "Are you sure you want to run %s?"
-msgstr "你確定要運行%s嗎？"
-
-#: .././mint_exec_guard/exec_guard.py:146
-#, python-format
-msgid "%s is available on Steam"
-msgstr "%s在Steam上可用"
-
-#: .././mint_exec_guard/exec_guard.py:151
-#, python-format
-msgid "%s is already installed"
-msgstr "%s已安裝"
-
-#: .././mint_exec_guard/exec_guard.py:153
-#, python-format
-msgid "%s can be installed from Software"
-msgstr "%s可以從「軟件」安裝"
-
-#: .././mint_exec_guard/exec_guard.py:157
-#, python-format
-msgid "%s is an alternative to %s."
-msgstr "%s是%s的替代品。"
-
-#: .././mint_exec_guard/exec_guard.py:174
-#, python-format
-msgid "%s is an unknown package."
-msgstr "%s為未知的套件。"
-
-#: .././mint_exec_guard/exec_guard.py:174 .././bin/mint-exec-guard-windows:69
-msgid ""
-"Your computer and personal data may be vulnerable to a breach when running "
-"apps from unknown sources."
-msgstr "在運行來自未知來源的應用時，您的電腦和個人資料可能容易受到攻擊。"
-
-#: .././mint_exec_guard/exec_guard.py:205
-#, python-format
-msgid "Launch %s"
-msgstr "啟動%s"
-
-#: .././mint_exec_guard/exec_guard.py:211
-#, python-format
-msgid "Install %s"
-msgstr "安裝%s"
-
-#: .././mint_exec_guard/exec_guard.py:352
-#, python-format
-msgid "%s has been installed"
-msgstr "%s已安裝"
-
-#: .././desktop/com.mint.exec-guard.linux.desktop.in.h:1
+#: 
 msgid "Install Linux Application"
 msgstr "安裝Linux應用程式"
 
-#: .././desktop/com.mint.exec-guard.linux.desktop.in.h:2
+#: 
 msgid "Install Linux Applications"
 msgstr "安裝Linux應用程式"
 
-#: .././desktop/com.mint.exec-guard.windows.desktop.in.h:1
+#: 
 msgid "Install Windows Application"
 msgstr "安裝Windows應用程式"
 
-#: .././desktop/com.mint.exec-guard.windows.desktop.in.h:2
+#: 
 msgid "Install Windows Applications"
 msgstr "安裝Windows應用程式"
 
-#: .././bin/mint-exec-guard-linux:32 .././bin/mint-exec-guard-windows:84
-msgid "Run anyway"
-msgstr "無論如何都要運行"
+#: 
 
-#: .././bin/mint-exec-guard-windows:60
-#, c-format
-msgid "Install Windows App Support to run %s?"
-msgstr "安裝Windows應用程式支援以運行%s？"
+msgid "Are you sure you want to run %s?"
+msgstr "你確定要運行%s嗎？"
 
-#: .././bin/mint-exec-guard-windows:69
-#, c-format
+#: 
+
+msgid "%s is available on Steam"
+msgstr "%s在Steam上可用"
+
+#: 
+
+msgid "%s is already installed"
+msgstr "%s已安裝"
+
+#: 
+
+msgid "%s can be installed from Software"
+msgstr "%s可以從「軟件」安裝"
+
+#: 
+
+msgid "%s is an alternative to %s."
+msgstr "%s是%s的替代品。"
+
+#: 
+
+msgid "%s is an unknown package."
+msgstr "%s為未知的套件。"
+
+#: 
+
 msgid "%s is an unknown Windows app."
 msgstr "%s為未知的Windows應用程式。"
 
-#: .././bin/mint-exec-guard-windows:69
+#: 
+msgid "Your computer and personal data may be vulnerable to a breach when running apps from unknown sources."
+msgstr "在運行來自未知來源的應用時，您的電腦和個人資料可能容易受到攻擊。"
+
+#: 
 msgid "Some Windows apps may not be compatible with Windows App Support."
 msgstr "某些Windows應用程式可能與Windows應用程式支援不相容。"
 
-#: .././bin/mint-exec-guard-windows:78
-msgid "Is this a video game?"
-msgstr "这是游戏吗？"
+#: 
 
-#: .././bin/mint-exec-guard-windows:88
+msgid "%s has been installed"
+msgstr "%s已安裝"
+
+#: 
+
+msgid "Run anyway"
+msgstr "無論如何都要運行"
+
+#: 
+
+msgid "Launch %s"
+msgstr "啟動%s"
+
+#: 
+
+msgid "Install %s"
+msgstr "安裝%s"
+
+#: 
 msgid "Install Windows App Support"
 msgstr "安裝Windows應用程式支援"
 
-#~ msgid "Installed"
-#~ msgstr "已安裝"
+#: 
 
-#~ msgid "Archive Manager"
-#~ msgstr "壓縮檔管理員"
+msgid "Install Windows App Support to run %s?"
+msgstr "安裝Windows應用程式支援以運行%s？"
 
-#~ msgid "Document Viewer"
-#~ msgstr "文件檢視器"
+#: 
+msgid "Installed"
+msgstr "已安裝"
 
-#~ msgid ""
-#~ "You can download Google Chrome (.deb package) for Linux Mint from the web"
-#~ msgstr "你可以从网上下载适用于Linux Mint的谷歌浏览器（.deb包）。"
+msgid "Archive Manager"
+msgstr "壓縮檔管理員"
 
-#~ msgid ""
-#~ "You can download Dropbox (Ubuntu package) for Linux Mint from the web"
-#~ msgstr "你可以从网上下载用于Linux Mint的Dropbox（Ubuntu软件包）。"
+msgid "Document Viewer"
+msgstr "文件檢視器"
 
-#~ msgid "You can download Itch (Linux package) for Linux Mint from the web"
-#~ msgstr "你可以从网上下载Linux Mint的Itch（Linux软件包）。"
+msgid "You can download Google Chrome (.deb package) for Zorin OS from the web"
+msgstr "你可以从网上下载适用于Zorin OS的谷歌浏览器（.deb包）。"
 
-#~ msgid ""
-#~ "You can download TeamViewer (.deb package) for Linux Mint from the web"
-#~ msgstr "你可以从网上下载用于Linux Mint的TeamViewer（.deb包）。"
+msgid "You can download Dropbox (Ubuntu package) for Zorin OS from the web"
+msgstr "你可以从网上下载用于Zorin OS的Dropbox（Ubuntu软件包）。"
 
-#~ msgid ""
-#~ "You can download Genymotion (Ubuntu package) for Linux Mint from the web"
-#~ msgstr "你可以从网上下载用于Linux Mint的Genymotion（Ubuntu软件包）。"
+msgid "You can download Itch (Linux package) for Zorin OS from the web"
+msgstr "你可以从网上下载Zorin OS的Itch（Linux软件包）。"
 
-#~ msgid "You can use WhatsApp on the web"
-#~ msgstr "您可以在网络上使用WhatsApp"
+msgid "You can download TeamViewer (.deb package) for Zorin OS from the web"
+msgstr "你可以从网上下载用于Zorin OS的TeamViewer（.deb包）。"
 
-#~ msgid "League of Legends is available on Lutris"
-#~ msgstr "您可以在Lutris上游玩《英雄联盟》(League of Legends)"
+msgid "You can download Genymotion (Ubuntu package) for Zorin OS from the web"
+msgstr "你可以从网上下载用于Zorin OS的Genymotion（Ubuntu软件包）。"
 
-#~ msgid "Overwatch is available on Lutris"
-#~ msgstr "您可以在Lutris上游玩《守望先锋》(Overwatch)"
+msgid "You can use WhatsApp on the web"
+msgstr "您可以在网络上使用WhatsApp"
 
-#~ msgid "Warframe is available on Lutris"
-#~ msgstr "您可以在Lutris上游玩《星际战甲》(Warframe)"
+msgid "League of Legends is available on Lutris"
+msgstr "您可以在Lutris上游玩《英雄联盟》(League of Legends)"
 
-#~ msgid "World of Warcraft is available on Lutris"
-#~ msgstr "您可以在Lutris上游玩《魔兽世界》(World of Warcraft)"
+msgid "Overwatch is available on Lutris"
+msgstr "您可以在Lutris上游玩《守望先锋》(Overwatch)"
 
-#~ msgid "Linux Mint is already resistant to Windows viruses and malware"
-#~ msgstr "Zorin操作系统已经可以抵抗Windows病毒和恶意软件的攻击"
+msgid "Warframe is available on Lutris"
+msgstr "您可以在Lutris上游玩《星际战甲》(Warframe)"
 
-#~ msgid "Flash Player is no longer supported"
-#~ msgstr "Flash Player已不再被支持"
+msgid "World of Warcraft is available on Lutris"
+msgstr "您可以在Lutris上游玩《魔兽世界》(World of Warcraft)"
 
-#~ msgid ""
-#~ "Install GNOME Boxes to run Microsoft Windows inside a Virtual Machine in "
-#~ "Linux Mint"
-#~ msgstr "安装GNOME Boxes，在Linux Mint的虚拟机中运行微软的Windows。"
+msgid "Zorin OS is already resistant to Windows viruses and malware"
+msgstr "Zorin操作系统已经可以抵抗Windows病毒和恶意软件的攻击"
 
-#~ msgid ".rar file support"
-#~ msgstr "支持 .rar 格式的文件"
+msgid "Flash Player is no longer supported"
+msgstr "Flash Player已不再被支持"
 
-#~ msgid ".7z file support"
-#~ msgstr "支持 .7z 格式的文件"
+msgid "Install GNOME Boxes to run Microsoft Windows inside a Virtual Machine in Zorin OS"
+msgstr "安装GNOME Boxes，在Zorin OS的虚拟机中运行微软的Windows。"
+
+msgid ".rar file support"
+msgstr "支持 .rar 格式的文件"
+
+msgid ".7z file support"
+msgstr "支持 .7z 格式的文件"
+
+msgid "Is this a video game?"
+msgstr "这是游戏吗？"

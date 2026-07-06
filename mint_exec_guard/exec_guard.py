@@ -1,6 +1,8 @@
-# This file is part of the Zorin Exec Guard program.
+# This file is part of the Mint Exec Guard program,
+# a fork of the Zorin Exec Guard program.
 #
-# Copyright 2018-2022 Linux Mint Technologies Ltd.
+# Copyright 2026 Facundo Godoy <facundogodoyrentero@gmail.com>
+# Copyright 2018-2021 Zorin OS Technologies Ltd.
 #
 # This program is free software you can redistribute it and/or modify it
 # under the terms and conditions of the GNU General Public License,
@@ -81,7 +83,14 @@ class ExecGuardApplication(Gtk.Application):
             except:
                 pass
 
-        self._replacement_installed = self.replacement and (self._replacement_desktop_launcher or ("flatpak" in self.replacement and self._installed_replacement_flatpak_ref) or self._installed_replacement_apt_package or "webLink" in self.replacement)
+        self._replacement_mime_app = None
+        if self.replacement and "mimeType" in self.replacement:
+            try:
+                self._replacement_mime_app = Gio.AppInfo.get_default_for_type(self.replacement["mimeType"], False)
+            except:
+                pass
+
+        self._replacement_installed = self.replacement and (self._replacement_desktop_launcher or ("flatpak" in self.replacement and self._installed_replacement_flatpak_ref) or self._installed_replacement_apt_package or "webLink" in self.replacement or self._replacement_mime_app)
 
     def do_startup(self):
         Gtk.Application.do_startup(self)
@@ -117,14 +126,18 @@ class ExecGuardApplication(Gtk.Application):
             launch_desktop_app(self._replacement_desktop_launcher)
             return
 
+        if self._replacement_mime_app:
+            launch_desktop_app(self._replacement_mime_app)
+            return
+
         if "webLink" in self.replacement:
             launch_link(self.replacement)
             return
-            
+
         if "flatpak" in self.replacement:
             launch_flatpak_app(self.replacement)
             return
-    
+
     def install_replacement_app(self, widget):
         if "apt" in self.replacement:
             self.window.hide()

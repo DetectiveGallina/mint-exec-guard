@@ -1,5 +1,227 @@
 mint-exec-guard (1.0.0) noble; urgency=medium
 
   * First release forked from zorin-exec-guard 1.5.8
+  * Replaced the gnome store for the mintinstall Software Manager
+  * Aded mimeTypes for the app-db
 
- -- Facundo Godoy <facundogodoyrentero@gmail.com>  Fri, 03 Jul 2026 22:58:36 -0300
+ -- Facundo Godoy <facundogodoyrentero@gmail.com>  Mon, 06 Jul 2026 04:02:28 +0000
+
+zorin-exec-guard (1.5.8) noble; urgency=medium
+
+  * Add support for .msix files
+
+ -- Artyom Zorin <azorin@zoringroup.com>  Wed, 29 Apr 2026 14:07:42 +0100
+
+zorin-exec-guard (1.5.7+1) noble; urgency=medium
+
+  * Uploaded package to Zorin OS 18 repositories
+
+ -- Artyom Zorin <azorin@zoringroup.com>  Fri, 24 Jan 2025 22:27:59 +0000
+
+zorin-exec-guard (1.5.7-1) jammy; urgency=medium
+
+  * Uploaded package to Zorin OS 17 repositories
+
+ -- Artyom Zorin <azorin@zoringroup.com>  Thu, 27 Apr 2023 19:19:45 +0100
+
+zorin-exec-guard (1.5.7) focal; urgency=medium
+
+  * Improved layout rendering in response to different widget width
+    ranges
+
+ -- Artyom Zorin <azorin@zoringroup.com>  Sat, 10 Dec 2022 18:37:39 +0000
+
+zorin-exec-guard (1.5.6) focal; urgency=medium
+
+  * Corrected alignment for button and link container
+
+ -- Artyom Zorin <azorin@zoringroup.com>  Sat, 10 Dec 2022 16:54:35 +0000
+
+zorin-exec-guard (1.5.5) focal; urgency=medium
+
+  * Added link to games guide if attempting to open an unknown Windows
+    executable
+
+ -- Artyom Zorin <azorin@zoringroup.com>  Sat, 10 Dec 2022 14:16:23 +0000
+
+zorin-exec-guard (1.5.4) focal; urgency=medium
+
+  * Update Wine check timeout and fixed bug when launching a Windows
+    executable with Wine after installation
+
+ -- Artyom Zorin <azorin@zoringroup.com>  Sun, 17 Jul 2022 12:31:40 +0100
+
+zorin-exec-guard (1.5.3) focal; urgency=medium
+
+  * Fixed bug when launching Windows executables with Wine
+
+ -- Artyom Zorin <azorin@zoringroup.com>  Sat, 16 Jul 2022 23:03:35 +0100
+
+zorin-exec-guard (1.5.2) focal; urgency=medium
+
+  * Updated translations
+
+ -- Artyom Zorin <azorin@zoringroup.com>  Sat, 16 Jul 2022 16:32:05 +0100
+
+zorin-exec-guard (1.5.1) focal; urgency=medium
+
+  * Updated launcher icons
+
+ -- Artyom Zorin <azorin@zoringroup.com>  Sat, 16 Jul 2022 00:16:16 +0100
+
+zorin-exec-guard (1.5) focal; urgency=medium
+
+  * Install Windows App Support with GNOME Software
+
+ -- Artyom Zorin <azorin@zoringroup.com>  Thu, 14 Jul 2022 23:54:29 +0100
+
+zorin-exec-guard (1.4.4) focal; urgency=medium
+
+  * Updated Turkish translations
+
+ -- Artyom Zorin <azorin@zoringroup.com>  Sat, 09 Apr 2022 13:14:14 +0100
+
+zorin-exec-guard (1.4.3) focal; urgency=medium
+
+  * Updated Run anyway button string
+
+ -- Artyom Zorin <azorin@zoringroup.com>  Sun, 27 Feb 2022 16:38:28 +0000
+
+zorin-exec-guard (1.4.2) focal; urgency=medium
+
+  * Fixed a translation string
+
+ -- Artyom Zorin <azorin@zoringroup.com>  Tue, 27 Jul 2021 20:33:39 +0100
+
+zorin-exec-guard (1.4.1) focal; urgency=medium
+
+  * Added translations for newer text strings
+
+ -- Artyom Zorin <azorin@zoringroup.com>  Tue, 27 Jul 2021 20:17:20 +0100
+
+zorin-exec-guard (1.4) focal; urgency=medium
+
+  * Added AppImage support
+
+ -- Artyom Zorin <azorin@zoringroup.com>  Sun, 30 May 2021 12:46:35 +0100
+
+zorin-exec-guard (1.3.1) focal; urgency=medium
+
+  * Fixed app alternative names in apt installed dialog
+
+ -- Artyom Zorin <azorin@zoringroup.com>  Thu, 20 May 2021 17:10:41 +0100
+
+zorin-exec-guard (1.3) focal; urgency=medium
+
+  * Imporved button styles for clarity
+
+ -- Artyom Zorin <azorin@zoringroup.com>  Wed, 16 Dec 2020 22:11:09 +0000
+
+zorin-exec-guard (1.2.4-1) focal; urgency=medium
+
+  * Uploaded to the Zorin OS 16 repositories
+
+ -- Artyom Zorin <azorin@zoringroup.com>  Sun, 15 Nov 2020 15:31:00 +0000
+
+zorin-exec-guard (1.2.4) bionic; urgency=medium
+
+  * Updated Hebrew translation
+
+ -- Artyom Zorin <azorin@zoringroup.com>  Fri, 28 Aug 2020 01:52:50 +0100
+
+zorin-exec-guard (1.2.3) bionic; urgency=medium
+
+  * Updated Hebrew translation and update cache before installing
+    Windows App Support to avoid missing dependencies error
+
+ -- Artyom Zorin <azorin@zoringroup.com>  Fri, 28 Aug 2020 00:59:28 +0100
+
+zorin-exec-guard (1.2.2) bionic; urgency=medium
+
+  * Ellipsize package names in the window title and text view
+
+ -- Artyom Zorin <azorin@zoringroup.com>  Fri, 17 May 2019 14:12:37 +0100
+
+zorin-exec-guard (1.2.1) bionic; urgency=medium
+
+  * Updated translations
+
+ -- Artyom Zorin <azorin@zoringroup.com>  Wed, 08 May 2019 18:54:46 +0100
+
+zorin-exec-guard (1.2) bionic; urgency=medium
+
+  * Added translations
+
+ -- Artyom Zorin <azorin@zoringroup.com>  Thu, 02 May 2019 23:33:40 +0100
+
+zorin-exec-guard (1.1) bionic; urgency=medium
+
+  * Removed title center justify
+
+ -- Artyom Zorin <azorin@zoringroup.com>  Tue, 06 Nov 2018 13:41:00 +0000
+
+zorin-exec-guard (1.0.9) bionic; urgency=medium
+
+  * Changed Linux .desktop file icon to be that of a deb package
+
+ -- Artyom Zorin <azorin@zoringroup.com>  Fri, 02 Nov 2018 00:32:36 +0000
+
+zorin-exec-guard (1.0.8) bionic; urgency=medium
+
+  * Changed Windows App Support apt package to zorin-windows-app-support
+
+ -- Artyom Zorin <azorin@zoringroup.com>  Thu, 01 Nov 2018 01:16:29 +0000
+
+zorin-exec-guard (1.0.7) bionic; urgency=medium
+
+  * Updated POTFILES.in file
+
+ -- Artyom Zorin <azorin@zoringroup.com>  Wed, 31 Oct 2018 22:38:13 +0000
+
+zorin-exec-guard (1.0.6) bionic; urgency=medium
+
+  * Bug fixes
+
+ -- Artyom Zorin <azorin@zoringroup.com>  Wed, 31 Oct 2018 22:33:56 +0000
+
+zorin-exec-guard (1.0.5) bionic; urgency=medium
+
+  * Fixed setup.py
+
+ -- Artyom Zorin <azorin@zoringroup.com>  Wed, 31 Oct 2018 21:46:16 +0000
+
+zorin-exec-guard (1.0.4) bionic; urgency=medium
+
+  * Added Makefile
+
+ -- Artyom Zorin <azorin@zoringroup.com>  Wed, 31 Oct 2018 21:32:27 +0000
+
+zorin-exec-guard (1.0.3) bionic; urgency=medium
+
+  * Changed debina/install file
+
+ -- Artyom Zorin <azorin@zoringroup.com>  Wed, 31 Oct 2018 21:12:42 +0000
+
+zorin-exec-guard (1.0.2) bionic; urgency=medium
+
+  * Fixed file reference in setup.cfg
+
+ -- Artyom Zorin <azorin@zoringroup.com>  Wed, 31 Oct 2018 20:58:36 +0000
+
+zorin-exec-guard (1.0.1) bionic; urgency=medium
+
+  * Added POTFILES
+
+ -- Artyom Zorin <azorin@zoringroup.com>  Wed, 31 Oct 2018 20:27:20 +0000
+
+zorin-exec-guard (1.0) bionic; urgency=medium
+
+  * Initial release
+
+ -- Artyom Zorin <azorin@zoringroup.com>  Wed, 31 Oct 2018 19:20:10 +0000
+
+zorin-exec-guard (0.9) bionic; urgency=medium
+
+  * Pre-release
+
+ -- Artyom Zorin <azorin@zoringroup.com>  Wed, 25 Oct 2018 00:20:25 +0100

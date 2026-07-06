@@ -1,178 +1,154 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Linux Mint\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-03 23:18-0300\n"
-"Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: POEditor.com\n"
+"Project-Id-Version: Zorin OS\n"
+"Language: id\n"
 
-#: .././mint_exec_guard/exec_guard.py:140
-#, python-format
-msgid "Are you sure you want to run %s?"
-msgstr "Anda yakin akan menjalankan %s?"
-
-#: .././mint_exec_guard/exec_guard.py:146
-#, python-format
-msgid "%s is available on Steam"
-msgstr "%s ini tersedia pada Steam"
-
-#: .././mint_exec_guard/exec_guard.py:151
-#, python-format
-msgid "%s is already installed"
-msgstr "%s  ini sudah terinstal"
-
-#: .././mint_exec_guard/exec_guard.py:153
-#, python-format
-msgid "%s can be installed from Software"
-msgstr "%s dapat diinstal"
-
-#: .././mint_exec_guard/exec_guard.py:157
-#, python-format
-msgid "%s is an alternative to %s."
-msgstr "%s ini adalah alternatif lain untuk %s."
-
-#: .././mint_exec_guard/exec_guard.py:174
-#, python-format
-msgid "%s is an unknown package."
-msgstr "%s ini adalah paket aplikasi yang tidak dikenal."
-
-#: .././mint_exec_guard/exec_guard.py:174 .././bin/mint-exec-guard-windows:69
-msgid ""
-"Your computer and personal data may be vulnerable to a breach when running "
-"apps from unknown sources."
-msgstr ""
-"Komputer dan data pribadi anda akan rawan dari gangguan malware atau "
-"serangan jika menjalankan aplikasi dari sumber yang tidak resmi."
-
-#: .././mint_exec_guard/exec_guard.py:205
-#, python-format
-msgid "Launch %s"
-msgstr "Menjalankan %s"
-
-#: .././mint_exec_guard/exec_guard.py:211
-#, python-format
-msgid "Install %s"
-msgstr "Instal %s"
-
-#: .././mint_exec_guard/exec_guard.py:352
-#, python-format
-msgid "%s has been installed"
-msgstr "%s telah terinstal"
-
-#: .././desktop/com.mint.exec-guard.linux.desktop.in.h:1
+#: 
 msgid "Install Linux Application"
 msgstr "Instalasi aplikasi Linux"
 
-#: .././desktop/com.mint.exec-guard.linux.desktop.in.h:2
+#: 
 msgid "Install Linux Applications"
 msgstr "Instalasi beberapa aplikasi linux"
 
-#: .././desktop/com.mint.exec-guard.windows.desktop.in.h:1
+#: 
 msgid "Install Windows Application"
 msgstr "Instal aplikasi Windows"
 
-#: .././desktop/com.mint.exec-guard.windows.desktop.in.h:2
+#: 
 msgid "Install Windows Applications"
 msgstr "Instalasi beberapa aplikasi Windows"
 
-#: .././bin/mint-exec-guard-linux:32 .././bin/mint-exec-guard-windows:84
-msgid "Run anyway"
-msgstr "Jalankan kapanpun"
+#: 
 
-#: .././bin/mint-exec-guard-windows:60
-#, c-format
-msgid "Install Windows App Support to run %s?"
-msgstr "Install Windows App Support untuk menjalankan %s?"
+msgid "Are you sure you want to run %s?"
+msgstr "Anda yakin akan menjalankan %s?"
 
-#: .././bin/mint-exec-guard-windows:69
-#, c-format
+#: 
+
+msgid "%s is available on Steam"
+msgstr "%s ini tersedia pada Steam"
+
+#: 
+
+msgid "%s is already installed"
+msgstr "%s  ini sudah terinstal"
+
+#: 
+
+msgid "%s can be installed from Software"
+msgstr "%s dapat diinstal"
+
+#: 
+
+msgid "%s is an alternative to %s."
+msgstr "%s ini adalah alternatif lain untuk %s."
+
+#: 
+
+msgid "%s is an unknown package."
+msgstr "%s ini adalah paket aplikasi yang tidak dikenal."
+
+#: 
+
 msgid "%s is an unknown Windows app."
 msgstr "%s ini adalah aplikasi windows yang tidak dikenal."
 
-#: .././bin/mint-exec-guard-windows:69
+#: 
+msgid "Your computer and personal data may be vulnerable to a breach when running apps from unknown sources."
+msgstr "Komputer dan data pribadi anda akan rawan dari gangguan malware atau serangan jika menjalankan aplikasi dari sumber yang tidak resmi."
+
+#: 
 msgid "Some Windows apps may not be compatible with Windows App Support."
-msgstr ""
-"Beberapa aplikasi mungkin tidak bisa berjalan baik atau tidak kompatibel "
-"dengan Windows App Support."
+msgstr "Beberapa aplikasi mungkin tidak bisa berjalan baik atau tidak kompatibel dengan Windows App Support."
 
-#: .././bin/mint-exec-guard-windows:78
-msgid "Is this a video game?"
-msgstr "Apakah ini permainan video?"
+#: 
 
-#: .././bin/mint-exec-guard-windows:88
+msgid "%s has been installed"
+msgstr "%s telah terinstal"
+
+#: 
+
+msgid "Run anyway"
+msgstr "Jalankan kapanpun"
+
+#: 
+
+msgid "Launch %s"
+msgstr "Menjalankan %s"
+
+#: 
+
+msgid "Install %s"
+msgstr "Instal %s"
+
+#: 
 msgid "Install Windows App Support"
 msgstr "Install Windows App Support"
 
-#~ msgid "Installed"
-#~ msgstr "Diinstal"
+#: 
 
-#~ msgid "Archive Manager"
-#~ msgstr "Manajer Arsip"
+msgid "Install Windows App Support to run %s?"
+msgstr "Install Windows App Support untuk menjalankan %s?"
 
-#~ msgid "Document Viewer"
-#~ msgstr "Penampil Dokumen"
+#: 
+msgid "Installed"
+msgstr "Diinstal"
 
-#~ msgid ""
-#~ "You can download Google Chrome (.deb package) for Linux Mint from the web"
-#~ msgstr ""
-#~ "Kamu dapat mengunduh Google Chrome (paket .deb) untuk Linux Mint dari "
-#~ "situs web"
+msgid "Archive Manager"
+msgstr "Manajer Arsip"
 
-#~ msgid ""
-#~ "You can download Dropbox (Ubuntu package) for Linux Mint from the web"
-#~ msgstr ""
-#~ "Kamu dapat mengunduh Dropbox (paket Ubuntu) untuk Linux Mint dari situs "
-#~ "web"
+msgid "Document Viewer"
+msgstr "Penampil Dokumen"
 
-#~ msgid "You can download Itch (Linux package) for Linux Mint from the web"
-#~ msgstr ""
-#~ "Kamu dapat mengunduh Itch (paket Linux) untuk Linux Mint dari situs web"
+msgid "You can download Google Chrome (.deb package) for Zorin OS from the web"
+msgstr "Kamu dapat mengunduh Google Chrome (paket .deb) untuk Zorin OS dari situs web"
 
-#~ msgid ""
-#~ "You can download TeamViewer (.deb package) for Linux Mint from the web"
-#~ msgstr ""
-#~ "Kamu dapat mengunduh TeamViewer (paket .deb) untuk Linux Mint dari situs "
-#~ "web"
+msgid "You can download Dropbox (Ubuntu package) for Zorin OS from the web"
+msgstr "Kamu dapat mengunduh Dropbox (paket Ubuntu) untuk Zorin OS dari situs web"
 
-#~ msgid ""
-#~ "You can download Genymotion (Ubuntu package) for Linux Mint from the web"
-#~ msgstr ""
-#~ "Kamu dapat mengunduh Genymotion (paket Ubuntu) untuk Linux Mint dari "
-#~ "situs web"
+msgid "You can download Itch (Linux package) for Zorin OS from the web"
+msgstr "Kamu dapat mengunduh Itch (paket Linux) untuk Zorin OS dari situs web"
 
-#~ msgid "You can use WhatsApp on the web"
-#~ msgstr "Anda dapat menggunakan WhatsApp di situs web"
+msgid "You can download TeamViewer (.deb package) for Zorin OS from the web"
+msgstr "Kamu dapat mengunduh TeamViewer (paket .deb) untuk Zorin OS dari situs web"
 
-#~ msgid "League of Legends is available on Lutris"
-#~ msgstr "League of Legends tersedia di Lutris"
+msgid "You can download Genymotion (Ubuntu package) for Zorin OS from the web"
+msgstr "Kamu dapat mengunduh Genymotion (paket Ubuntu) untuk Zorin OS dari situs web"
 
-#~ msgid "Overwatch is available on Lutris"
-#~ msgstr "Overwatch tersedia di Lutris"
+msgid "You can use WhatsApp on the web"
+msgstr "Anda dapat menggunakan WhatsApp di situs web"
 
-#~ msgid "Warframe is available on Lutris"
-#~ msgstr "Warframe tersedia di Lutris"
+msgid "League of Legends is available on Lutris"
+msgstr "League of Legends tersedia di Lutris"
 
-#~ msgid "World of Warcraft is available on Lutris"
-#~ msgstr "World of Warcraft tersedia di Lutris"
+msgid "Overwatch is available on Lutris"
+msgstr "Overwatch tersedia di Lutris"
 
-#~ msgid "Linux Mint is already resistant to Windows viruses and malware"
-#~ msgstr "Linux Mint sudah tahan terhadap virus dan malware Windows"
+msgid "Warframe is available on Lutris"
+msgstr "Warframe tersedia di Lutris"
 
-#~ msgid "Flash Player is no longer supported"
-#~ msgstr "Flash Player tidak lagi di dukung"
+msgid "World of Warcraft is available on Lutris"
+msgstr "World of Warcraft tersedia di Lutris"
 
-#~ msgid ""
-#~ "Install GNOME Boxes to run Microsoft Windows inside a Virtual Machine in "
-#~ "Linux Mint"
-#~ msgstr ""
-#~ "Pasang GNOME Boxes untuk menjalankan Microsoft Windows dalam Mesin "
-#~ "Virtual di Linux Mint"
+msgid "Zorin OS is already resistant to Windows viruses and malware"
+msgstr "Zorin OS sudah tahan terhadap virus dan malware Windows"
 
-#~ msgid ".rar file support"
-#~ msgstr "dukungan file .rar"
+msgid "Flash Player is no longer supported"
+msgstr "Flash Player tidak lagi di dukung"
 
-#~ msgid ".7z file support"
-#~ msgstr "dukungan file .7z"
+msgid "Install GNOME Boxes to run Microsoft Windows inside a Virtual Machine in Zorin OS"
+msgstr "Pasang GNOME Boxes untuk menjalankan Microsoft Windows dalam Mesin Virtual di Zorin OS"
+
+msgid ".rar file support"
+msgstr "dukungan file .rar"
+
+msgid ".7z file support"
+msgstr "dukungan file .7z"
+
+msgid "Is this a video game?"
+msgstr "Apakah ini permainan video?"

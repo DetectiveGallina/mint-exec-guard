@@ -1,6 +1,6 @@
-./mint_exec_guard/__init__.py
-./mint_exec_guard/exec_guard.py
-./desktop/com.mint.exec-guard.linux.desktop.in
-./desktop/com.mint.exec-guard.windows.desktop.in
-./bin/mint-exec-guard-linux
-./bin/mint-exec-guard-windows
+./zorin_exec_guard/exec_guard.py
+./zorin_exec_guard/__init__.py
+./desktop/com.zorin.exec-guard.windows.desktop.in
+./desktop/com.zorin.exec-guard.linux.desktop.in
+./bin/zorin-exec-guard-linux
+./bin/zorin-exec-guard-windows
